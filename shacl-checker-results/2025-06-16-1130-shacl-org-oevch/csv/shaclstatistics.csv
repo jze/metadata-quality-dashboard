@@ -1,0 +1,44 @@
+property,message,count
+dcat:contactPoint,"Class 'dcat:Dataset' - Property 'dcat:contactPoint': The contact point must be provided as vcard:Organization or vcard:Individual.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-contactpoint-dcat
+	    ",83
+dcat:landingPage,"Class 'dcat:Dataset' - Property 'dcat:landingPage': The landing page must be provided as an IRI.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-landingpage-dcat
+        ",83
+dcat:theme,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",83
+dct:accrualPeriodicity,"Class 'dcat:Dataset' - Property 'dct:accrualPeriodicity': The frequency must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/frequency.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-accrual-periodicity
+        ",80
+dct:description,"Class 'dcat:Dataset' - Property 'dct:description': Please add a description for your dataset.
+	The description must be provided as language-tagged strings in at least one of the following languages: de, en, fr, it.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-description-dcat
+	    ",1
+dct:description,"Class 'dcat:Dataset' - Property 'dct:description': Please include the description in at least one of the following languages: de, fr, en, it.",1
+dct:language,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",75
+dct:publisher,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",83
+dct:format,"Class 'dcat:Distribution' - Property 'dct:format': The distribution format must be chosen from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/file-type.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-format-dcat
+        ",1
+dct:issued,"Class 'dcat:Distribution' - Property 'dct:issued': Please provide an issued date for the distribution.
+         See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-distribution-issued
+         ",1
+dct:license,"Class 'dcat:Distribution' - Property 'dct:license': The license must be chosen from the controlled vocabulary available at:
+	http://dcat-ap.ch/vocabulary/licenses.      
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-license-dcat
+        ",1
+dct:rights,"Class 'dcat:Distribution' - Property '​dct:rights': The terms of use should now be provided under dct:license.
+        The dct:rights property may only be used to specify one of the following three Creative Commons (CC) licenses:
+	https://creativecommons.org/publicdomain/zero/1.0/,
+	https://creativecommons.org/licenses/by/4.0/ or https://creativecommons.org/licenses/by-sa/4.0/.      
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-rights-dcat
+        ",17
