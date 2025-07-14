@@ -1,0 +1,17 @@
+FROM python:3.9-alpine
+
+# !!! PLESK does not work with environment variables (BUG). !!!
+
+# Access to /shared/ volume.
+# ENV OPENDATA_AUDIT_OUTPUT=/shared/audit.json
+
+# Copy Filesystem.
+WORKDIR /app/data-updater
+COPY . .
+
+# Install requirements.
+COPY requirements.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Run the data-updater.
+CMD ["python", "main.py"]

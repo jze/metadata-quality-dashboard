@@ -1,0 +1,47 @@
+
+{
+    "max_total_score": 405,
+    "findability": 
+    {
+        "max_score": 100,
+        "keyword_ponderation": 30,
+        "categories_ponderation": 30,
+        "geo_search_ponderation": 20,
+        "time_search_ponderation": 20
+    },
+    "accessibility": 
+    {
+        "max_score": 100,
+        "url_accessible_ponderation": 50,
+        "download_url_ponderation": 20,
+        "download_url_accessible_ponderation": 30
+    },
+    "interoperability": 
+    {
+        "max_score": 110,
+        "format_ponderation": 50,
+        "media_type_ponderation": 10,
+        "format&media_vocabulary_ponderation": 10,
+        "format_proprietary_ponderation": 20,
+        "format_machine_readable_ponderation": 20,
+        "dcat_compliant_ponderation": 30
+    },
+    "reusability": 
+    {
+        "max_score": 75,
+        "license_ponderation": 20,
+        "license_vocabulary_ponderation": 10,
+        "access_restriction_ponderation": 10,
+        "access_restriction_vocabulary_ponderation": 5,
+        "contact_point_ponderation": 20,
+        "publisher_ponderation": 10
+    },
+    "contextuality":
+    {
+        "max_score": 20,
+        "rights_ponderation": 5,
+        "file_size_ponderation": 5,
+        "issue_date_ponderation": 5,
+        "modification-date_ponderation": 5
+    }
+}

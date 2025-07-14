@@ -1,0 +1,12 @@
+# Folders.
+__pycache__/
+sandbox/
+data/sample*
+documentation/
+test/
+
+# Files.
+data/output/*.json
+data/input_processed/*.json
+data/input_raw/*.jsonld
+pyproject.toml
