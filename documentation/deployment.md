@@ -5,7 +5,7 @@
 docker volume rm audit-shared
 docker volume create audit-shared
 ```
-A shared volume enables data sharing between containers. For more details, see [Project Structure & Inter-process Communication](../documentation/inter-process-communication.md)
+A shared volume enables data sharing between containers. For more details, see [Inter-process Communication](../documentation/inter-process-communication.md)
 
 ## Build and Run the `data-updater` Container
 * Dockerfile.run-now — Run once
