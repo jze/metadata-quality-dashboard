@@ -1,11 +1,14 @@
 from package.audit.utils import get_distributions, is_defined, count_defined, count_vocabulary_use
+from package.paths import CONTROLLED_VOC
 from package.vocabulary import dcat_ap_ch
 from package.vocabulary import eu_vocab_access_rights
 
+ACCESS_RAW = 'access-right-skos.rdf'
+ACCESS_PREPROCESSED = 'access-rights_preprocessed.json'
 
 # Load vocabulary lists.
 LICENSE_VOCABULARY = dcat_ap_ch.VOCABULARY
-ACCESS_RIGHT_VOCABULARY = eu_vocab_access_rights.read_vocabulary()
+ACCESS_RIGHT_VOCABULARY = eu_vocab_access_rights.read_vocabulary(CONTROLLED_VOC / ACCESS_PREPROCESSED)
 
 # dcat:Distribution properties.
 MEDIA_TYPE = 'http://www.w3.org/ns/dcat#mediaType'

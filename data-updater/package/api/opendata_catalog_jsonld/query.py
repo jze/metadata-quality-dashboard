@@ -7,9 +7,9 @@ import requests
 import time
 import warnings
 
-from os import getcwd
-from pathlib import Path
 from typing import List
+
+from package.paths import DATA
 
 logger = logging.getLogger(__name__)
 
@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 VERIFY = False
 TIMEOUT = 1
 TIMEOUT_LONG = 60
-HEADERS = {"User-Agent": "OGDLinkVerifier/1.0 (+https://dashboard.opendata.swiss/)" }
+HEADERS = {"User-Agent": "OGDLinkVerifier/1.0 (+https://dashboard.opendata.swiss/)"}
 if "AUDIT_PROXY" in os.environ:
     PROXY = {
         "http": os.environ.get("AUDIT_PROXY"),
@@ -34,7 +34,7 @@ RETRY_RANDOM_WAIT = 3
 OVERREAD = 2
 
 # Save file location.
-PRODUCTION_CATALOG_PATH = Path(getcwd() + "/data/all_catalog.json")
+PRODUCTION_CATALOG_PATH = DATA / "all_catalog.json"
 
 # STRUCTURE: catalog.jsonld
 ID = "@id"
@@ -91,7 +91,11 @@ def request_page(page: int) -> requests.Request:
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore")
         return requests.get(
-            CATALOG_QUERY, proxies=PROXY, verify=VERIFY, headers=HEADERS, params=dict(page=page)
+            CATALOG_QUERY,
+            proxies=PROXY,
+            verify=VERIFY,
+            headers=HEADERS,
+            params=dict(page=page),
         )
 
 

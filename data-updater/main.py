@@ -16,19 +16,22 @@ from package.audit import (
     score_organisations,
     score_datasets,
 )
+from package.paths import DATA
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s", level=logging.INFO, datefmt="%H:%M:%S")  # fmt: skip
 logger = logging.getLogger(__name__)
 
-RAW_FILE = Path("./data/input_raw/all_catalog.jsonld")
-OUTPUT_PATH = Path("./data/output/" if "AUDIT_DEV" in os.environ else "/shared/")
-OUTPUT_DATASET_AUDIT = OUTPUT_PATH / "audit_dataset.json"
-OUTPUT_ORG_AUDIT = OUTPUT_PATH / "audit_organisation.json"
-OUTPUT_TOTAL_AUDIT = OUTPUT_PATH / "audit_total.json"
-OUTPUT_LIST = OUTPUT_PATH / "detailed_organisation_list.json"
-OUTPUT_STATUS = OUTPUT_PATH / "status.json"
 VERSION, VERSION_DATE = 0.7, "13.03.2025"
+
+RAW_FILE = DATA / "input_raw" / "all_catalog.jsonld"
+OUT = DATA / "output" if "AUDIT_DEV" in os.environ else "/shared/"
+
+OUTPUT_DATASET_AUDIT = OUT / "audit_dataset.json"
+OUTPUT_ORG_AUDIT = OUT / "audit_organisation.json"
+OUTPUT_TOTAL_AUDIT = OUT / "audit_total.json"
+OUTPUT_LIST = OUT / "detailed_organisation_list.json"
+OUTPUT_STATUS = OUT / "status.json"
 
 
 async def main() -> None:
@@ -81,7 +84,7 @@ async def main() -> None:
     logger.info(f"Audit complete!")
 
 
-def save_status(file: Path, _status: str, error_message: str="") -> None:
+def save_status(file: Path, _status: str, error_message: str = "") -> None:
     now = datetime.now().strftime("%d.%m.%Y")
 
     if _status == "OK":
@@ -97,8 +100,8 @@ def save_status(file: Path, _status: str, error_message: str="") -> None:
         message=error_message,
         last_update=now,
         last_update_ok=last_ok,
-        version=VERSION, 
-        version_last_update=VERSION_DATE
+        version=VERSION,
+        version_last_update=VERSION_DATE,
     )
 
     with open(file, "w") as f:

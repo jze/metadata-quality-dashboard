@@ -1,8 +1,7 @@
 # Source: https://www.iana.org/assignments/media-types/media-types.xhtml
 
-from os import getcwd
-from pathlib import Path
 from xml.etree import ElementTree as ET
+from package.paths import CONTROLLED_VOC
 
 
 IANA_MEDIA_TYPE = "http://www.iana.org/assignments/media-types"
@@ -10,7 +9,7 @@ REGISTRY = r"{http://www.iana.org/assignments}registry"
 RECORD = r"{http://www.iana.org/assignments}record"
 FILE = r"{http://www.iana.org/assignments}file"
 
-FILEPATH = Path(getcwd(), "data/controlled_vocabulary/Media Types.xml")
+FILEPATH = CONTROLLED_VOC / "Media Types.xml"
 
 tree = ET.parse(FILEPATH)
 root = tree.getroot()
