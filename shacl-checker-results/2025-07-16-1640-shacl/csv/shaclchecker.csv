@@ -1,0 +1,1035 @@
+contact_email,contact_name,organization_name,dataset_title,dataset_url,node,property,value,severity,error_msg,pkg_type,checker_type,template
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,15-Jahresverbrauch [%],https://ckan.opendata.swiss/dataset/15-jahresverbrauch,N4a90343a1f5346c082790b069f4803cd,dcat:theme,http://opendata.swiss/themes/Population and society,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,15-Jahresverbrauch [%],https://ckan.opendata.swiss/dataset/15-jahresverbrauch,N4a90343a1f5346c082790b069f4803cd,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,15-Jahresverbrauch [%],https://ckan.opendata.swiss/dataset/15-jahresverbrauch,N4a90343a1f5346c082790b069f4803cd,dct:publisher,Nf0247d5dd5554d0d944889d279617639,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,15-Jahresverbrauch [ha],https://ckan.opendata.swiss/dataset/15-jahresverbrauch-ha,N9b03330331b34672bcde92cd2984b5ec,dcat:theme,http://opendata.swiss/themes/Population and society,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,15-Jahresverbrauch [ha],https://ckan.opendata.swiss/dataset/15-jahresverbrauch-ha,N9b03330331b34672bcde92cd2984b5ec,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,15-Jahresverbrauch [ha],https://ckan.opendata.swiss/dataset/15-jahresverbrauch-ha,N9b03330331b34672bcde92cd2984b5ec,dct:publisher,Nb425baf3520d41909748200297364bb1,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,1-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/1-personenhaushalte-anz,N67727f9a24d143889a5dcec9af13c52b,dct:publisher,Nf5c0fc46d6f547e9886730dc7df3a432,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,1-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/1-personenhaushalte-anz,N67727f9a24d143889a5dcec9af13c52b,dcat:theme,http://opendata.swiss/themes/Population and society,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,1-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/1-personenhaushalte-anz,N67727f9a24d143889a5dcec9af13c52b,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,2013-2020 gas exchange at Pfynwald,https://ckan.opendata.swiss/dataset/2013-2020-gas-exchange-at-pfynwald,https://www.envidat.ch/#/metadata/pfynwaldgasexchange,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,2013-2020 gas exchange at Pfynwald,https://ckan.opendata.swiss/dataset/2013-2020-gas-exchange-at-pfynwald,https://www.envidat.ch/#/metadata/pfynwaldgasexchange,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,2013-2020 gas exchange at Pfynwald,https://ckan.opendata.swiss/dataset/2013-2020-gas-exchange-at-pfynwald,https://www.envidat.ch/#/metadata/pfynwaldgasexchange,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,21st century projections of dry- and wet-snow avalanche activity,https://ckan.opendata.swiss/dataset/21st-century-projections-of-dry-and-wet-snow-avalanche-activity,https://www.envidat.ch/#/metadata/projections-of-dry--and-wet-snow-avalanche-activity,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,21st century projections of dry- and wet-snow avalanche activity,https://ckan.opendata.swiss/dataset/21st-century-projections-of-dry-and-wet-snow-avalanche-activity,https://www.envidat.ch/#/metadata/projections-of-dry--and-wet-snow-avalanche-activity,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,21st century projections of dry- and wet-snow avalanche activity,https://ckan.opendata.swiss/dataset/21st-century-projections-of-dry-and-wet-snow-avalanche-activity,https://www.envidat.ch/#/metadata/projections-of-dry--and-wet-snow-avalanche-activity,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,2-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/2-personenhaushalte-anz,N1db9ec27a6df463b86757b4bc61a390f,dct:publisher,Nf9b0b6e363f2413d8290f8e1d0361ef7,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,2-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/2-personenhaushalte-anz,N1db9ec27a6df463b86757b4bc61a390f,dcat:theme,http://opendata.swiss/themes/Population and society,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,2-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/2-personenhaushalte-anz,N1db9ec27a6df463b86757b4bc61a390f,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,3D_Snow_Models,https://ckan.opendata.swiss/dataset/3d_snow_models,https://www.envidat.ch/#/metadata/3d_snow_models,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,3D_Snow_Models,https://ckan.opendata.swiss/dataset/3d_snow_models,https://www.envidat.ch/#/metadata/3d_snow_models,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,3D_Snow_Models,https://ckan.opendata.swiss/dataset/3d_snow_models,https://www.envidat.ch/#/metadata/3d_snow_models,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,3-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/3-personenhaushalte-anz,Nb6920f9c00f541dc8b6d8a6189335165,dct:publisher,N922f1b1c0fd14152b9749922f187bddc,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,3-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/3-personenhaushalte-anz,Nb6920f9c00f541dc8b6d8a6189335165,dcat:theme,http://opendata.swiss/themes/Population and society,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,3-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/3-personenhaushalte-anz,Nb6920f9c00f541dc8b6d8a6189335165,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.001 Unfallversicherer nach Referenzgrösse und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-001-unfallversicherer-nach-referenzgrosse-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.001d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.001 Unfallversicherer nach Referenzgrösse und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-001-unfallversicherer-nach-referenzgrosse-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.001d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.001 Unfallversicherer nach Referenzgrösse und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-001-unfallversicherer-nach-referenzgrosse-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.001d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.001 Unfallversicherer nach Referenzgrösse und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-001-unfallversicherer-nach-referenzgrosse-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.001d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.002 Unfälle und Unfälle pro 1000 versicherte Beschäftigte nach Versicherungszweig und Art des Unfalls seit 2005,https://ckan.opendata.swiss/dataset/463-002-unfalle-und-unfalle-pro-1000-versicherte-beschaftigte-nach-versicherungszweig-und-2005,https://catalog.opendata.li/resources/463.002d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.002 Unfälle und Unfälle pro 1000 versicherte Beschäftigte nach Versicherungszweig und Art des Unfalls seit 2005,https://ckan.opendata.swiss/dataset/463-002-unfalle-und-unfalle-pro-1000-versicherte-beschaftigte-nach-versicherungszweig-und-2005,https://catalog.opendata.li/resources/463.002d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.002 Unfälle und Unfälle pro 1000 versicherte Beschäftigte nach Versicherungszweig und Art des Unfalls seit 2005,https://ckan.opendata.swiss/dataset/463-002-unfalle-und-unfalle-pro-1000-versicherte-beschaftigte-nach-versicherungszweig-und-2005,https://catalog.opendata.li/resources/463.002d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.002 Unfälle und Unfälle pro 1000 versicherte Beschäftigte nach Versicherungszweig und Art des Unfalls seit 2005,https://ckan.opendata.swiss/dataset/463-002-unfalle-und-unfalle-pro-1000-versicherte-beschaftigte-nach-versicherungszweig-und-2005,https://catalog.opendata.li/resources/463.002d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.003 Betriebsrechnung in CHF nach Bilanzposition und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-003-betriebsrechnung-in-chf-nach-bilanzposition-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.003d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.003 Betriebsrechnung in CHF nach Bilanzposition und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-003-betriebsrechnung-in-chf-nach-bilanzposition-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.003d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.003 Betriebsrechnung in CHF nach Bilanzposition und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-003-betriebsrechnung-in-chf-nach-bilanzposition-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.003d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.003 Betriebsrechnung in CHF nach Bilanzposition und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-003-betriebsrechnung-in-chf-nach-bilanzposition-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.003d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.004 Versicherungsleistungen nach Versicherungszweig und Kostenart seit 2005,https://ckan.opendata.swiss/dataset/463-004-versicherungsleistungen-nach-versicherungszweig-und-kostenart-seit-2005,https://catalog.opendata.li/resources/463.004d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.004 Versicherungsleistungen nach Versicherungszweig und Kostenart seit 2005,https://ckan.opendata.swiss/dataset/463-004-versicherungsleistungen-nach-versicherungszweig-und-kostenart-seit-2005,https://catalog.opendata.li/resources/463.004d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.004 Versicherungsleistungen nach Versicherungszweig und Kostenart seit 2005,https://ckan.opendata.swiss/dataset/463-004-versicherungsleistungen-nach-versicherungszweig-und-kostenart-seit-2005,https://catalog.opendata.li/resources/463.004d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.004 Versicherungsleistungen nach Versicherungszweig und Kostenart seit 2005,https://ckan.opendata.swiss/dataset/463-004-versicherungsleistungen-nach-versicherungszweig-und-kostenart-seit-2005,https://catalog.opendata.li/resources/463.004d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.005 Leistungen und Leistungen pro Unfall nach Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-005-leistungen-und-leistungen-pro-unfall-nach-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.005d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.005 Leistungen und Leistungen pro Unfall nach Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-005-leistungen-und-leistungen-pro-unfall-nach-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.005d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.005 Leistungen und Leistungen pro Unfall nach Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-005-leistungen-und-leistungen-pro-unfall-nach-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.005d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.005 Leistungen und Leistungen pro Unfall nach Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-005-leistungen-und-leistungen-pro-unfall-nach-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.005d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,"463.006 Unfallversicherer nach Kennzahl, Einheit und Versicherungszweig seit 2005",https://ckan.opendata.swiss/dataset/463-006-unfallversicherer-nach-kennzahl-einheit-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.006d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,"463.006 Unfallversicherer nach Kennzahl, Einheit und Versicherungszweig seit 2005",https://ckan.opendata.swiss/dataset/463-006-unfallversicherer-nach-kennzahl-einheit-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.006d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,"463.006 Unfallversicherer nach Kennzahl, Einheit und Versicherungszweig seit 2005",https://ckan.opendata.swiss/dataset/463-006-unfallversicherer-nach-kennzahl-einheit-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.006d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,"463.006 Unfallversicherer nach Kennzahl, Einheit und Versicherungszweig seit 2005",https://ckan.opendata.swiss/dataset/463-006-unfallversicherer-nach-kennzahl-einheit-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.006d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,"463.007 Rentenzahlungen nach Versicherungszweig, Rentenart und Rententeil seit 2005",https://ckan.opendata.swiss/dataset/463-007-rentenzahlungen-nach-versicherungszweig-rentenart-und-rententeil-seit-2005,https://catalog.opendata.li/resources/463.007d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,"463.007 Rentenzahlungen nach Versicherungszweig, Rentenart und Rententeil seit 2005",https://ckan.opendata.swiss/dataset/463-007-rentenzahlungen-nach-versicherungszweig-rentenart-und-rententeil-seit-2005,https://catalog.opendata.li/resources/463.007d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,"463.007 Rentenzahlungen nach Versicherungszweig, Rentenart und Rententeil seit 2005",https://ckan.opendata.swiss/dataset/463-007-rentenzahlungen-nach-versicherungszweig-rentenart-und-rententeil-seit-2005,https://catalog.opendata.li/resources/463.007d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,"463.007 Rentenzahlungen nach Versicherungszweig, Rentenart und Rententeil seit 2005",https://ckan.opendata.swiss/dataset/463-007-rentenzahlungen-nach-versicherungszweig-rentenart-und-rententeil-seit-2005,https://catalog.opendata.li/resources/463.007d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.008 Rücklagen der Versicherungen nach Art der Rücklage und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-008-rucklagen-der-versicherungen-nach-art-der-rucklage-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.008d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.008 Rücklagen der Versicherungen nach Art der Rücklage und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-008-rucklagen-der-versicherungen-nach-art-der-rucklage-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.008d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,463.008 Rücklagen der Versicherungen nach Art der Rücklage und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-008-rucklagen-der-versicherungen-nach-art-der-rucklage-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.008d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,463.008 Rücklagen der Versicherungen nach Art der Rücklage und Versicherungszweig seit 2005,https://ckan.opendata.swiss/dataset/463-008-rucklagen-der-versicherungen-nach-art-der-rucklage-und-versicherungszweig-seit-2005,https://catalog.opendata.li/resources/463.008d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,4-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/4-personenhaushalte-anz,N1aa95ba9a2f74c20b6c22e3c4c7cbe63,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,4-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/4-personenhaushalte-anz,N1aa95ba9a2f74c20b6c22e3c4c7cbe63,dct:publisher,N16215c7974834141bb7b1de87fd743f5,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,4-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/4-personenhaushalte-anz,N1aa95ba9a2f74c20b6c22e3c4c7cbe63,dcat:theme,http://opendata.swiss/themes/Population and society,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,502.00 Steuereinnahmen nach Steuerart und Rechnungsjahr seit 1980,https://ckan.opendata.swiss/dataset/502-00-steuereinnahmen-nach-steuerart-und-rechnungsjahr-seit-1980,https://catalog.opendata.li/resources/502.004,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,502.00 Steuereinnahmen nach Steuerart und Rechnungsjahr seit 1980,https://ckan.opendata.swiss/dataset/502-00-steuereinnahmen-nach-steuerart-und-rechnungsjahr-seit-1980,https://catalog.opendata.li/resources/502.004,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl,502.00 Steuereinnahmen nach Steuerart und Rechnungsjahr seit 1980,https://ckan.opendata.swiss/dataset/502-00-steuereinnahmen-nach-steuerart-und-rechnungsjahr-seit-1980,https://catalog.opendata.li/resources/502.004,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl,502.00 Steuereinnahmen nach Steuerart und Rechnungsjahr seit 1980,https://ckan.opendata.swiss/dataset/502-00-steuereinnahmen-nach-steuerart-und-rechnungsjahr-seit-1980,https://catalog.opendata.li/resources/502.004,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,5-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/5-personenhaushalte-anz,N1a6773c423f84ff4aaededeb881e50ed,dcat:theme,http://opendata.swiss/themes/Population and society,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,5-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/5-personenhaushalte-anz,N1a6773c423f84ff4aaededeb881e50ed,dct:publisher,N254c88ebe1274aaea183625d5b13092c,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,5-Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/5-personenhaushalte-anz,N1a6773c423f84ff4aaededeb881e50ed,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,6 und mehr Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/6-und-mehr-personenhaushalte-anz,Na846861471b54ac1a7c2afebabfada83,dcat:theme,http://opendata.swiss/themes/Population and society,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,6 und mehr Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/6-und-mehr-personenhaushalte-anz,Na846861471b54ac1a7c2afebabfada83,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,6 und mehr Personenhaushalte [Anz.],https://ckan.opendata.swiss/dataset/6-und-mehr-personenhaushalte-anz,Na846861471b54ac1a7c2afebabfada83,dct:publisher,N99fcec8c3d8c46b4b403f8e67ec4b4ad,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abbruchbewilligte Gebäude und Wohnungen nach Gemeinde seit 2014,https://ckan.opendata.swiss/dataset/abbruchbewilligte-gebaude-und-wohnungen-nach-gemeinde-seit-20141,https://catalog.opendata.li/resources/381.006,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abbruchbewilligte Gebäude und Wohnungen nach Gemeinde seit 2014,https://ckan.opendata.swiss/dataset/abbruchbewilligte-gebaude-und-wohnungen-nach-gemeinde-seit-20141,https://catalog.opendata.li/resources/381.006,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abbruchbewilligte Gebäude und Wohnungen nach Gemeinde seit 2014,https://ckan.opendata.swiss/dataset/abbruchbewilligte-gebaude-und-wohnungen-nach-gemeinde-seit-20141,https://catalog.opendata.li/resources/381.006,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abbruchbewilligte Gebäude und Wohnungen nach Gemeinde seit 2014,https://ckan.opendata.swiss/dataset/abbruchbewilligte-gebaude-und-wohnungen-nach-gemeinde-seit-20141,https://catalog.opendata.li/resources/381.006,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+christian.trachsel@sbb.ch,christian.trachsel@sbb.ch,schweizerische-bundesbahnen-sbb,Abfahrtsplakate,https://ckan.opendata.swiss/dataset/abfahrtsplakate2,https://data.sbb.ch/api/v2/catalog/datasets/abfahrtsplakate0,dcat:theme,http://opendata.swiss/themes/mobility,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+christian.trachsel@sbb.ch,christian.trachsel@sbb.ch,schweizerische-bundesbahnen-sbb,Abfahrtsplakate,https://ckan.opendata.swiss/dataset/abfahrtsplakate2,https://data.sbb.ch/api/v2/catalog/datasets/abfahrtsplakate0,dct:publisher,https://data.sbb.ch/explore/?refine.dcat_ap_ch.domain=schweizerische-bundesbahnen-sbb,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abfallaufkommen nach Abfallkategorie und Kennzahl seit 1972,https://ckan.opendata.swiss/dataset/abfallaufkommen-nach-abfallkategorie-und-kennzahl-seit-1972,https://catalog.opendata.li/resources/533.101,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abfallaufkommen nach Abfallkategorie und Kennzahl seit 1972,https://ckan.opendata.swiss/dataset/abfallaufkommen-nach-abfallkategorie-und-kennzahl-seit-1972,https://catalog.opendata.li/resources/533.101,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abfallaufkommen nach Abfallkategorie und Kennzahl seit 1972,https://ckan.opendata.swiss/dataset/abfallaufkommen-nach-abfallkategorie-und-kennzahl-seit-1972,https://catalog.opendata.li/resources/533.101,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abfallaufkommen nach Abfallkategorie und Kennzahl seit 1972,https://ckan.opendata.swiss/dataset/abfallaufkommen-nach-abfallkategorie-und-kennzahl-seit-1972,https://catalog.opendata.li/resources/533.101,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abfallaufkommen nach Abfallkategorie und Sammelstelle seit 1985,https://ckan.opendata.swiss/dataset/abfallaufkommen-nach-abfallkategorie-und-sammelstelle-seit-1985,https://catalog.opendata.li/resources/533.102,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abfallaufkommen nach Abfallkategorie und Sammelstelle seit 1985,https://ckan.opendata.swiss/dataset/abfallaufkommen-nach-abfallkategorie-und-sammelstelle-seit-1985,https://catalog.opendata.li/resources/533.102,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abfallaufkommen nach Abfallkategorie und Sammelstelle seit 1985,https://ckan.opendata.swiss/dataset/abfallaufkommen-nach-abfallkategorie-und-sammelstelle-seit-1985,https://catalog.opendata.li/resources/533.102,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abfallaufkommen nach Abfallkategorie und Sammelstelle seit 1985,https://ckan.opendata.swiss/dataset/abfallaufkommen-nach-abfallkategorie-und-sammelstelle-seit-1985,https://catalog.opendata.li/resources/533.102,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abfallbehandlung nach Behandlungsart seit 1972,https://ckan.opendata.swiss/dataset/abfallbehandlung-nach-behandlungsart-seit-1972,https://catalog.opendata.li/resources/533.201,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abfallbehandlung nach Behandlungsart seit 1972,https://ckan.opendata.swiss/dataset/abfallbehandlung-nach-behandlungsart-seit-1972,https://catalog.opendata.li/resources/533.201,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abfallbehandlung nach Behandlungsart seit 1972,https://ckan.opendata.swiss/dataset/abfallbehandlung-nach-behandlungsart-seit-1972,https://catalog.opendata.li/resources/533.201,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abfallbehandlung nach Behandlungsart seit 1972,https://ckan.opendata.swiss/dataset/abfallbehandlung-nach-behandlungsart-seit-1972,https://catalog.opendata.li/resources/533.201,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+ogd@bl.ch,ogd@bl.ch,kanton-basel-landschaft,"Abfallmengen nach Kategorie, Gemeinde und Jahr (seit 2017)",https://ckan.opendata.swiss/dataset/abfallmengen-nach-kategorie-gemeinde-und-jahr-seit-2017,https://data.bl.ch/api/v2/catalog/datasets/12060,dct:publisher,https://data.bl.ch/explore/?refine.dcat_ap_ch.domain=kanton-basel-landschaft,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,awel-kanton-zuerich,Abfallmengen und Abfallgebühren in den Gemeinden im Kanton Zürich ab 2000,https://ckan.opendata.swiss/dataset/abfallmengen-und-abfallgebuhren-in-den-gemeinden-im-kanton-zurich-ab-2000,Nac3139225beb43dcab1f8705ac823af1,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,awel-kanton-zuerich,Abfallmengen und Abfallgebühren in den Gemeinden im Kanton Zürich ab 2000,https://ckan.opendata.swiss/dataset/abfallmengen-und-abfallgebuhren-in-den-gemeinden-im-kanton-zurich-ab-2000,Nac3139225beb43dcab1f8705ac823af1,dct:publisher,N962db39087854b26b3492aef91e368b7,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,awel-kanton-zuerich,Abfallmengen und Abfallgebühren in den Gemeinden im Kanton Zürich ab 2000,https://ckan.opendata.swiss/dataset/abfallmengen-und-abfallgebuhren-in-den-gemeinden-im-kanton-zurich-ab-2000,Nac3139225beb43dcab1f8705ac823af1,dcat:theme,http://opendata.swiss/themes/Environment,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+opendata@zg.ch,opendata@zg.ch,kanton-zug,Abfallsammelstellen,https://ckan.opendata.swiss/dataset/abfallsammelstellen,urn:uuid:03131882-95f9-4b83-8c6b-ac635e65e23d,dct:publisher,urn:uuid:024ccc67-38ed-81aa-968f-e056f4e676f6,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Abfuhrdaten Stadt St.Gallen,https://ckan.opendata.swiss/dataset/abfuhrdaten-stadt-st-gallen,https://daten.stadt.sg.ch/api/v2/catalog/datasets/abfuhrdaten-stadt-stgallen,dct:publisher,https://daten.stadt.sg.ch/explore/?refine.dcat_ap_ch.domain=stadt-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Abfuhrdaten Stadt St.Gallen,https://ckan.opendata.swiss/dataset/abfuhrdaten-stadt-st-gallen,https://daten.stadt.sg.ch/api/v2/catalog/datasets/abfuhrdaten-stadt-stgallen,dcat:theme,http://opendata.swiss/themes/administration,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Abfuhrgebiete Stadt St.Gallen,https://ckan.opendata.swiss/dataset/abfuhrgebiete-stadt-st-gallen,https://daten.stadt.sg.ch/api/v2/catalog/datasets/abfuhrgebiete-stadt-stgallen,dct:publisher,https://daten.stadt.sg.ch/explore/?refine.dcat_ap_ch.domain=stadt-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Abfuhrgebiete Stadt St.Gallen,https://ckan.opendata.swiss/dataset/abfuhrgebiete-stadt-st-gallen,https://daten.stadt.sg.ch/api/v2/catalog/datasets/abfuhrgebiete-stadt-stgallen,dcat:theme,http://opendata.swiss/themes/administration,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Abfuhrtermine,https://ckan.opendata.swiss/dataset/abfuhrtermine,https://data.bs.ch/api/v2/catalog/datasets/100096,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Tiefbauamt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Abfuhrtermine,https://ckan.opendata.swiss/dataset/abfuhrtermine,https://data.bs.ch/api/v2/catalog/datasets/100096,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Tiefbauamt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Abfuhrtermine,https://ckan.opendata.swiss/dataset/abfuhrtermine,https://data.bs.ch/api/v2/catalog/datasets/100096,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Tiefbauamt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Abfuhrtermine,https://ckan.opendata.swiss/dataset/abfuhrtermine,https://data.bs.ch/api/v2/catalog/datasets/100096,dcat:theme,http://opendata.swiss/themes/territory,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Abfuhrtermine,https://ckan.opendata.swiss/dataset/abfuhrtermine,https://data.bs.ch/api/v2/catalog/datasets/100096,dcat:theme,http://opendata.swiss/themes/territory,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Abfuhrtermine,https://ckan.opendata.swiss/dataset/abfuhrtermine,https://data.bs.ch/api/v2/catalog/datasets/100096,dcat:theme,http://opendata.swiss/themes/territory,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Abfuhrzonen (Gemeinde Basel),https://ckan.opendata.swiss/dataset/abfuhrzonen-gemeinde-basel1,https://data.bs.ch/api/v2/catalog/datasets/100095,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Tiefbauamt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Abfuhrzonen (Gemeinde Basel),https://ckan.opendata.swiss/dataset/abfuhrzonen-gemeinde-basel1,https://data.bs.ch/api/v2/catalog/datasets/100095,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Tiefbauamt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Abfuhrzonen (Gemeinde Basel),https://ckan.opendata.swiss/dataset/abfuhrzonen-gemeinde-basel1,https://data.bs.ch/api/v2/catalog/datasets/100095,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Tiefbauamt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Abfuhrzonen (Gemeinde Basel),https://ckan.opendata.swiss/dataset/abfuhrzonen-gemeinde-basel1,https://data.bs.ch/api/v2/catalog/datasets/100095,dcat:theme,http://opendata.swiss/themes/territory,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Abfuhrzonen (Gemeinde Basel),https://ckan.opendata.swiss/dataset/abfuhrzonen-gemeinde-basel1,https://data.bs.ch/api/v2/catalog/datasets/100095,dcat:theme,http://opendata.swiss/themes/territory,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Abfuhrzonen (Gemeinde Basel),https://ckan.opendata.swiss/dataset/abfuhrzonen-gemeinde-basel1,https://data.bs.ch/api/v2/catalog/datasets/100095,dcat:theme,http://opendata.swiss/themes/territory,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+Valentin.Monney@fr.ch,Valentin.Monney@fr.ch,ssd,Abgerechnete Kurzarbeit ab 2004,https://ckan.opendata.swiss/dataset/abgerechnete-kurzarbeit-ab-2002,https://opendata.fr.ch/api/v2/catalog/datasets/03_03_rht_decomptees_mensuelles,dct:publisher,https://opendata.fr.ch/explore/?refine.dcat_ap_ch.domain=ssd,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Eric.Meyer@fr.ch,Eric.Meyer@fr.ch,ssd,Abgerechnete Kurzarbeit ab 2004,https://ckan.opendata.swiss/dataset/abgerechnete-kurzarbeit-ab-2002,https://opendata.fr.ch/api/v2/catalog/datasets/03_03_rht_decomptees_mensuelles,dct:publisher,https://opendata.fr.ch/explore/?refine.dcat_ap_ch.domain=ssd,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Artur.Stefaniuk@fr.ch,Artur.Stefaniuk@fr.ch,ssd,Abgerechnete Kurzarbeit ab 2004,https://ckan.opendata.swiss/dataset/abgerechnete-kurzarbeit-ab-2002,https://opendata.fr.ch/api/v2/catalog/datasets/03_03_rht_decomptees_mensuelles,dct:publisher,https://opendata.fr.ch/explore/?refine.dcat_ap_ch.domain=ssd,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Abitazioni in edifici abitativi, secondo il tipo di edificio, l'epoca di costruzione, il numero di locali e la superficie, per comune, in Ticino, dal 2014 al 2023",https://ckan.opendata.swiss/dataset/abitazioni-in-edifici-abitativi-secondo-il-tipo-di-edificio-lepoca-di-costruzione-il-numer-2022,N24cc6b455d2b4e159f09ee55f9a39706,dct:language,it,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Abitazioni in edifici abitativi, secondo il tipo di edificio, l'epoca di costruzione, il numero di locali e la superficie, per comune, in Ticino, dal 2014 al 2023",https://ckan.opendata.swiss/dataset/abitazioni-in-edifici-abitativi-secondo-il-tipo-di-edificio-lepoca-di-costruzione-il-numer-2022,N24cc6b455d2b4e159f09ee55f9a39706,dct:publisher,https://www.ti.ch/ustat,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Abitazioni occupate in edifici abitativi e densità di utilizzazione, secondo il tipo di edificio, l'epoca di costruzione e il numero di locali, per comune, in Ticino, dal 2014 al 2023",https://ckan.opendata.swiss/dataset/abitazioni-occupate-in-edifici-abitativi-e-densita-di-utilizzazione-secondo-il-tipo-di-edi-2022,Nbc894d04035e49bb994face290909832,dct:publisher,https://www.ti.ch/ustat,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Abitazioni occupate in edifici abitativi e densità di utilizzazione, secondo il tipo di edificio, l'epoca di costruzione e il numero di locali, per comune, in Ticino, dal 2014 al 2023",https://ckan.opendata.swiss/dataset/abitazioni-occupate-in-edifici-abitativi-e-densita-di-utilizzazione-secondo-il-tipo-di-edi-2022,Nbc894d04035e49bb994face290909832,dct:language,it,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Abitazioni occupate in edifici abitativi e superficie media per occupante, secondo il tipo di edificio, l'epoca di costruzione e la composizione del nucleo familiare, per comune, in Ticino, dal 2014 al 2023",https://ckan.opendata.swiss/dataset/abitazioni-occupate-in-edifici-abitativi-e-superficie-media-per-occupante-secondo-il-tipo-2022,N4e92270ec16c440c8b81d90d8cff56a1,dct:language,it,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Abitazioni occupate in edifici abitativi e superficie media per occupante, secondo il tipo di edificio, l'epoca di costruzione e la composizione del nucleo familiare, per comune, in Ticino, dal 2014 al 2023",https://ckan.opendata.swiss/dataset/abitazioni-occupate-in-edifici-abitativi-e-superficie-media-per-occupante-secondo-il-tipo-2022,N4e92270ec16c440c8b81d90d8cff56a1,dct:publisher,https://www.ti.ch/ustat,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Abitazioni occupate in edifici abitativi, occupanti e superficie media per occupante, secondo il tipo di edificio, l'epoca di costruzione e il numero di locali, per comune, in Ticino, dal 2014 al 2023",https://ckan.opendata.swiss/dataset/abitazioni-occupate-in-edifici-abitativi-occupanti-e-superficie-media-per-occupante-second-2022,Nf3b4570b162c480f9ec4775f76782e66,dct:language,it,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Abitazioni occupate in edifici abitativi, occupanti e superficie media per occupante, secondo il tipo di edificio, l'epoca di costruzione e il numero di locali, per comune, in Ticino, dal 2014 al 2023",https://ckan.opendata.swiss/dataset/abitazioni-occupate-in-edifici-abitativi-occupanti-e-superficie-media-per-occupante-second-2022,Nf3b4570b162c480f9ec4775f76782e66,dct:publisher,https://www.ti.ch/ustat,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Abitazioni occupate in edifici abitativi, occupanti e superficie media per occupante, secondo il tipo di edificio, l'epoca di costruzione e la superficie, per comune, in Ticino, dal 2014 al 2023",https://ckan.opendata.swiss/dataset/abitazioni-occupate-in-edifici-abitativi-occupanti-e-superficie-media-per-occupante-second-2022-1,N9e6f130b6a2b430f8be7cfc7704ee056,dct:language,it,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Abitazioni occupate in edifici abitativi, occupanti e superficie media per occupante, secondo il tipo di edificio, l'epoca di costruzione e la superficie, per comune, in Ticino, dal 2014 al 2023",https://ckan.opendata.swiss/dataset/abitazioni-occupate-in-edifici-abitativi-occupanti-e-superficie-media-per-occupante-second-2022-1,N9e6f130b6a2b430f8be7cfc7704ee056,dct:publisher,https://www.ti.ch/ustat,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Above- and below-ground herbivore communities along elevation,https://ckan.opendata.swiss/dataset/above-and-below-ground-herbivore-communities-along-elevation,https://www.envidat.ch/#/metadata/above-and-below-ground-herbivore-communities-along-elevation,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Above- and below-ground herbivore communities along elevation,https://ckan.opendata.swiss/dataset/above-and-below-ground-herbivore-communities-along-elevation,https://www.envidat.ch/#/metadata/above-and-below-ground-herbivore-communities-along-elevation,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Above- and below-ground herbivore communities along elevation,https://ckan.opendata.swiss/dataset/above-and-below-ground-herbivore-communities-along-elevation,https://www.envidat.ch/#/metadata/above-and-below-ground-herbivore-communities-along-elevation,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Abschlüsse an der Liechtensteinischen Berufsmaturitätsschule nach Schwerpunkt, Geschlecht und Wohnland seit 2015",https://ckan.opendata.swiss/dataset/abschlusse-an-der-liechtensteinischen-berufsmaturitatsschule-nach-schwerpunkt-geschlecht-u-2015,https://catalog.opendata.li/resources/484.101d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Abschlüsse an der Liechtensteinischen Berufsmaturitätsschule nach Schwerpunkt, Geschlecht und Wohnland seit 2015",https://ckan.opendata.swiss/dataset/abschlusse-an-der-liechtensteinischen-berufsmaturitatsschule-nach-schwerpunkt-geschlecht-u-2015,https://catalog.opendata.li/resources/484.101d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Abschlüsse an der Liechtensteinischen Berufsmaturitätsschule nach Schwerpunkt, Geschlecht und Wohnland seit 2015",https://ckan.opendata.swiss/dataset/abschlusse-an-der-liechtensteinischen-berufsmaturitatsschule-nach-schwerpunkt-geschlecht-u-2015,https://catalog.opendata.li/resources/484.101d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Abschlüsse an der Liechtensteinischen Berufsmaturitätsschule nach Schwerpunkt, Geschlecht und Wohnland seit 2015",https://ckan.opendata.swiss/dataset/abschlusse-an-der-liechtensteinischen-berufsmaturitatsschule-nach-schwerpunkt-geschlecht-u-2015,https://catalog.opendata.li/resources/484.101d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Abschlüsse an Universitäten in Liechtenstein nach Examensstufe, Fächergruppe, Ausbildungsstätte und Geschlecht seit 2019",https://ckan.opendata.swiss/dataset/abschlusse-an-universitaten-in-liechtenstein-nach-examensstufe-fachergruppe-ausbildungssta-2019,https://catalog.opendata.li/resources/482.112d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Abschlüsse an Universitäten in Liechtenstein nach Examensstufe, Fächergruppe, Ausbildungsstätte und Geschlecht seit 2019",https://ckan.opendata.swiss/dataset/abschlusse-an-universitaten-in-liechtenstein-nach-examensstufe-fachergruppe-ausbildungssta-2019,https://catalog.opendata.li/resources/482.112d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Abschlüsse an Universitäten in Liechtenstein nach Examensstufe, Fächergruppe, Ausbildungsstätte und Geschlecht seit 2019",https://ckan.opendata.swiss/dataset/abschlusse-an-universitaten-in-liechtenstein-nach-examensstufe-fachergruppe-ausbildungssta-2019,https://catalog.opendata.li/resources/482.112d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Abschlüsse an Universitäten in Liechtenstein nach Examensstufe, Fächergruppe, Ausbildungsstätte und Geschlecht seit 2019",https://ckan.opendata.swiss/dataset/abschlusse-an-universitaten-in-liechtenstein-nach-examensstufe-fachergruppe-ausbildungssta-2019,https://catalog.opendata.li/resources/482.112d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+felix.lorenz@tg.ch,felix.lorenz@tg.ch,kanton-thurgau,Abschlüsse Berufliche Grundbildung seit 2017,https://ckan.opendata.swiss/dataset/abschlusse-berufliche-grundbildung-seit-2017,https://data.tg.ch/api/v2/catalog/datasets/dek-abb-1,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+daniela.koller@tg.ch,daniela.koller@tg.ch,kanton-thurgau,Abschlüsse Berufliche Grundbildung seit 2017,https://ckan.opendata.swiss/dataset/abschlusse-berufliche-grundbildung-seit-2017,https://data.tg.ch/api/v2/catalog/datasets/dek-abb-1,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+bernd.hebel@tg.ch,bernd.hebel@tg.ch,kanton-thurgau,Abschlüsse Berufliche Grundbildung seit 2017,https://ckan.opendata.swiss/dataset/abschlusse-berufliche-grundbildung-seit-2017,https://data.tg.ch/api/v2/catalog/datasets/dek-abb-1,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+ogd@tg.ch,ogd@tg.ch,kanton-thurgau,Abschlüsse Berufliche Grundbildung seit 2017,https://ckan.opendata.swiss/dataset/abschlusse-berufliche-grundbildung-seit-2017,https://data.tg.ch/api/v2/catalog/datasets/dek-abb-1,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abschlüsse der Sekundarstufe II in Liechtenstein nach Profil und Geschlecht seit 2011,https://ckan.opendata.swiss/dataset/abschlusse-der-sekundarstufe-ii-in-liechtenstein-nach-profil-und-geschlecht-seit-20111,https://catalog.opendata.li/resources/481.101,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abschlüsse der Sekundarstufe II in Liechtenstein nach Profil und Geschlecht seit 2011,https://ckan.opendata.swiss/dataset/abschlusse-der-sekundarstufe-ii-in-liechtenstein-nach-profil-und-geschlecht-seit-20111,https://catalog.opendata.li/resources/481.101,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abschlüsse der Sekundarstufe II in Liechtenstein nach Profil und Geschlecht seit 2011,https://ckan.opendata.swiss/dataset/abschlusse-der-sekundarstufe-ii-in-liechtenstein-nach-profil-und-geschlecht-seit-20111,https://catalog.opendata.li/resources/481.101,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abschlüsse der Sekundarstufe II in Liechtenstein nach Profil und Geschlecht seit 2011,https://ckan.opendata.swiss/dataset/abschlusse-der-sekundarstufe-ii-in-liechtenstein-nach-profil-und-geschlecht-seit-20111,https://catalog.opendata.li/resources/481.101,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Abschlüsse von Lernenden aus Liechtenstein, nach Bildungsfeld und Geschlecht seit 2015",https://ckan.opendata.swiss/dataset/abschlusse-von-lernenden-aus-liechtenstein-nach-bildungsfeld-und-geschlecht-seit-2015,https://catalog.opendata.li/resources/483.101d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Abschlüsse von Lernenden aus Liechtenstein, nach Bildungsfeld und Geschlecht seit 2015",https://ckan.opendata.swiss/dataset/abschlusse-von-lernenden-aus-liechtenstein-nach-bildungsfeld-und-geschlecht-seit-2015,https://catalog.opendata.li/resources/483.101d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Abschlüsse von Lernenden aus Liechtenstein, nach Bildungsfeld und Geschlecht seit 2015",https://ckan.opendata.swiss/dataset/abschlusse-von-lernenden-aus-liechtenstein-nach-bildungsfeld-und-geschlecht-seit-2015,https://catalog.opendata.li/resources/483.101d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Abschlüsse von Lernenden aus Liechtenstein, nach Bildungsfeld und Geschlecht seit 2015",https://ckan.opendata.swiss/dataset/abschlusse-von-lernenden-aus-liechtenstein-nach-bildungsfeld-und-geschlecht-seit-2015,https://catalog.opendata.li/resources/483.101d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abschlüsse von Lernenden in Liechtenstein nach Bildungsfeld und Geschlecht seit 2015,https://ckan.opendata.swiss/dataset/abschlusse-von-lernenden-in-liechtenstein-nach-bildungsfeld-und-geschlecht-seit-2015,https://catalog.opendata.li/resources/483.111d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abschlüsse von Lernenden in Liechtenstein nach Bildungsfeld und Geschlecht seit 2015,https://ckan.opendata.swiss/dataset/abschlusse-von-lernenden-in-liechtenstein-nach-bildungsfeld-und-geschlecht-seit-2015,https://catalog.opendata.li/resources/483.111d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Abschlüsse von Lernenden in Liechtenstein nach Bildungsfeld und Geschlecht seit 2015,https://ckan.opendata.swiss/dataset/abschlusse-von-lernenden-in-liechtenstein-nach-bildungsfeld-und-geschlecht-seit-2015,https://catalog.opendata.li/resources/483.111d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Abschlüsse von Lernenden in Liechtenstein nach Bildungsfeld und Geschlecht seit 2015,https://ckan.opendata.swiss/dataset/abschlusse-von-lernenden-in-liechtenstein-nach-bildungsfeld-und-geschlecht-seit-2015,https://catalog.opendata.li/resources/483.111d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Abschlüsse von Studierenden aus Liechtenstein an Fachhochschulen nach Examensstufe, Fachbereich, Studienland und Geschlecht und seit 2014",https://ckan.opendata.swiss/dataset/abschlusse-von-studierenden-aus-liechtenstein-an-fachhochschulen-nach-examensstufe-fachber-2014,https://catalog.opendata.li/resources/482.101d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Abschlüsse von Studierenden aus Liechtenstein an Fachhochschulen nach Examensstufe, Fachbereich, Studienland und Geschlecht und seit 2014",https://ckan.opendata.swiss/dataset/abschlusse-von-studierenden-aus-liechtenstein-an-fachhochschulen-nach-examensstufe-fachber-2014,https://catalog.opendata.li/resources/482.101d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Abschlüsse von Studierenden aus Liechtenstein an Fachhochschulen nach Examensstufe, Fachbereich, Studienland und Geschlecht und seit 2014",https://ckan.opendata.swiss/dataset/abschlusse-von-studierenden-aus-liechtenstein-an-fachhochschulen-nach-examensstufe-fachber-2014,https://catalog.opendata.li/resources/482.101d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Abschlüsse von Studierenden aus Liechtenstein an Fachhochschulen nach Examensstufe, Fachbereich, Studienland und Geschlecht und seit 2014",https://ckan.opendata.swiss/dataset/abschlusse-von-studierenden-aus-liechtenstein-an-fachhochschulen-nach-examensstufe-fachber-2014,https://catalog.opendata.li/resources/482.101d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Abschlüsse von Studierenden aus Liechtenstein an Universitäten nach Examensstufe, Fächergruppe, Studienland und Geschlecht seit 2014",https://ckan.opendata.swiss/dataset/abschlusse-von-studierenden-aus-liechtenstein-an-universitaten-nach-examensstufe-fachergru-2014,https://catalog.opendata.li/resources/482.102d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Abschlüsse von Studierenden aus Liechtenstein an Universitäten nach Examensstufe, Fächergruppe, Studienland und Geschlecht seit 2014",https://ckan.opendata.swiss/dataset/abschlusse-von-studierenden-aus-liechtenstein-an-universitaten-nach-examensstufe-fachergru-2014,https://catalog.opendata.li/resources/482.102d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Abschlüsse von Studierenden aus Liechtenstein an Universitäten nach Examensstufe, Fächergruppe, Studienland und Geschlecht seit 2014",https://ckan.opendata.swiss/dataset/abschlusse-von-studierenden-aus-liechtenstein-an-universitaten-nach-examensstufe-fachergru-2014,https://catalog.opendata.li/resources/482.102d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Abschlüsse von Studierenden aus Liechtenstein an Universitäten nach Examensstufe, Fächergruppe, Studienland und Geschlecht seit 2014",https://ckan.opendata.swiss/dataset/abschlusse-von-studierenden-aus-liechtenstein-an-universitaten-nach-examensstufe-fachergru-2014,https://catalog.opendata.li/resources/482.102d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Abstimmungen Details,https://ckan.opendata.swiss/dataset/abstimmungen-details,https://data.bs.ch/api/v2/catalog/datasets/100345,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Staatskanzlei,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Abstimmungen Details,https://ckan.opendata.swiss/dataset/abstimmungen-details,https://data.bs.ch/api/v2/catalog/datasets/100345,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Staatskanzlei,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Abstimmungen Details,https://ckan.opendata.swiss/dataset/abstimmungen-details,https://data.bs.ch/api/v2/catalog/datasets/100345,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Staatskanzlei,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Abstimmungen Details,https://ckan.opendata.swiss/dataset/abstimmungen-details,https://data.bs.ch/api/v2/catalog/datasets/100345,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Abstimmungen Details,https://ckan.opendata.swiss/dataset/abstimmungen-details,https://data.bs.ch/api/v2/catalog/datasets/100345,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Abstimmungen Details,https://ckan.opendata.swiss/dataset/abstimmungen-details,https://data.bs.ch/api/v2/catalog/datasets/100345,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+felix.lorenz@tg.ch,felix.lorenz@tg.ch,kanton-thurgau,Abstimmungen im Grossen Rat des Kantons Thurgau,https://ckan.opendata.swiss/dataset/abstimmungen-im-grossen-rat-des-kantons-thurgau,https://data.tg.ch/api/v2/catalog/datasets/sk-stat-136,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+daniela.koller@tg.ch,daniela.koller@tg.ch,kanton-thurgau,Abstimmungen im Grossen Rat des Kantons Thurgau,https://ckan.opendata.swiss/dataset/abstimmungen-im-grossen-rat-des-kantons-thurgau,https://data.tg.ch/api/v2/catalog/datasets/sk-stat-136,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+bernd.hebel@tg.ch,bernd.hebel@tg.ch,kanton-thurgau,Abstimmungen im Grossen Rat des Kantons Thurgau,https://ckan.opendata.swiss/dataset/abstimmungen-im-grossen-rat-des-kantons-thurgau,https://data.tg.ch/api/v2/catalog/datasets/sk-stat-136,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+ogd@tg.ch,ogd@tg.ch,kanton-thurgau,Abstimmungen im Grossen Rat des Kantons Thurgau,https://ckan.opendata.swiss/dataset/abstimmungen-im-grossen-rat-des-kantons-thurgau,https://data.tg.ch/api/v2/catalog/datasets/sk-stat-136,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+erich.gollino@stadt.sg.ch,erich.gollino@stadt.sg.ch,kanton-st-gallen,Abstimmungen im Kantonsrat St.Gallen,https://ckan.opendata.swiss/dataset/abstimmungen-im-kantonsrat-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungen-im-kantonsrat-st-gallen,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+nicola.wullschleger@stadt.sg.ch,nicola.wullschleger@stadt.sg.ch,kanton-st-gallen,Abstimmungen im Kantonsrat St.Gallen,https://ckan.opendata.swiss/dataset/abstimmungen-im-kantonsrat-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungen-im-kantonsrat-st-gallen,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+rahel.rusterholz2@stadt.sg.ch,rahel.rusterholz2@stadt.sg.ch,kanton-st-gallen,Abstimmungen im Kantonsrat St.Gallen,https://ckan.opendata.swiss/dataset/abstimmungen-im-kantonsrat-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungen-im-kantonsrat-st-gallen,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+erich.gollino@stadt.sg.ch,erich.gollino@stadt.sg.ch,kanton-st-gallen,Abstimmungen im Kantonsrat St.Gallen,https://ckan.opendata.swiss/dataset/abstimmungen-im-kantonsrat-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungen-im-kantonsrat-st-gallen,dct:publisher,https://daten.sg.ch/explore/?refine.dcat_ap_ch.domain=kanton-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+nicola.wullschleger@stadt.sg.ch,nicola.wullschleger@stadt.sg.ch,kanton-st-gallen,Abstimmungen im Kantonsrat St.Gallen,https://ckan.opendata.swiss/dataset/abstimmungen-im-kantonsrat-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungen-im-kantonsrat-st-gallen,dct:publisher,https://daten.sg.ch/explore/?refine.dcat_ap_ch.domain=kanton-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+rahel.rusterholz2@stadt.sg.ch,rahel.rusterholz2@stadt.sg.ch,kanton-st-gallen,Abstimmungen im Kantonsrat St.Gallen,https://ckan.opendata.swiss/dataset/abstimmungen-im-kantonsrat-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungen-im-kantonsrat-st-gallen,dct:publisher,https://daten.sg.ch/explore/?refine.dcat_ap_ch.domain=kanton-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Abstimmungsarchiv des Kantons Zürich ab 1831,https://ckan.opendata.swiss/dataset/abstimmungsarchiv-des-kantons-zurich1,Nc117c1fd25bf4696bda9f26c30b7d56b,dct:publisher,Nceddbc5257fa41b98d247fe24fc772d9,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Abstimmungsarchiv des Kantons Zürich ab 1831,https://ckan.opendata.swiss/dataset/abstimmungsarchiv-des-kantons-zurich1,Nc117c1fd25bf4696bda9f26c30b7d56b,dcat:theme,http://opendata.swiss/themes/Government and public sector,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Abstimmungsarchiv des Kantons Zürich ab 1831,https://ckan.opendata.swiss/dataset/abstimmungsarchiv-des-kantons-zurich1,Nc117c1fd25bf4696bda9f26c30b7d56b,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+ogd@bl.ch,ogd@bl.ch,kanton-basel-landschaft,"Abstimmungsresultate nach Vorlage, Gemeinde und Datum (seit 2003)",https://ckan.opendata.swiss/dataset/abstimmungsarchiv-nach-vorlage-gemeinde-und-datum-ab-20031,https://data.bl.ch/api/v2/catalog/datasets/11990,dct:publisher,https://data.bl.ch/explore/?refine.dcat_ap_ch.domain=kanton-basel-landschaft,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+ogd@bl.ch,ogd@bl.ch,kanton-basel-landschaft,Abstimmungsresultate nach Vorlage und Datum (seit 2003),https://ckan.opendata.swiss/dataset/abstimmungsarchiv-nach-vorlage-und-datum-ab-2003,https://data.bl.ch/api/v2/catalog/datasets/10500,dct:publisher,https://data.bl.ch/explore/?refine.dcat_ap_ch.domain=kanton-basel-landschaft,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Abstimmungsempfehlungen von Kantonsrat und Regierungsrat des Kantons Zürich,https://ckan.opendata.swiss/dataset/abstimmungsempfehlungen-von-kantonsrat-und-regierungsrat-des-kantons-zurich,N47700b5e901748ae9aa85b063afd973a,dcat:theme,http://opendata.swiss/themes/Government and public sector,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Abstimmungsempfehlungen von Kantonsrat und Regierungsrat des Kantons Zürich,https://ckan.opendata.swiss/dataset/abstimmungsempfehlungen-von-kantonsrat-und-regierungsrat-des-kantons-zurich,N47700b5e901748ae9aa85b063afd973a,dct:publisher,N112482426c1e4036a8ddb3d55ffad386,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Abstimmungsempfehlungen von Kantonsrat und Regierungsrat des Kantons Zürich,https://ckan.opendata.swiss/dataset/abstimmungsempfehlungen-von-kantonsrat-und-regierungsrat-des-kantons-zurich,N47700b5e901748ae9aa85b063afd973a,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Abstimmungsergebnisse Stadt St.Gallen,https://ckan.opendata.swiss/dataset/abstimmungsergebnisse-stadt-st-gallen,https://daten.stadt.sg.ch/api/v2/catalog/datasets/abstimmungsergebnisse-stadt-st-gallen,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Abstimmungsergebnisse Stadt St.Gallen,https://ckan.opendata.swiss/dataset/abstimmungsergebnisse-stadt-st-gallen,https://daten.stadt.sg.ch/api/v2/catalog/datasets/abstimmungsergebnisse-stadt-st-gallen,dct:publisher,https://daten.stadt.sg.ch/explore/?refine.dcat_ap_ch.domain=stadt-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Abstimmungsparolen von kantonalzürcher und nationalen Parteien,https://ckan.opendata.swiss/dataset/abstimmungsparolen-von-kantonalzurcher-und-nationalen-parteien,Naaae14c910dc4c36972ebf383bab3ea8,dcat:theme,http://opendata.swiss/themes/Government and public sector,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Abstimmungsparolen von kantonalzürcher und nationalen Parteien,https://ckan.opendata.swiss/dataset/abstimmungsparolen-von-kantonalzurcher-und-nationalen-parteien,Naaae14c910dc4c36972ebf383bab3ea8,dct:publisher,N708fc1108d5c45dca6378c8113e8ad58,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Abstimmungsparolen von kantonalzürcher und nationalen Parteien,https://ckan.opendata.swiss/dataset/abstimmungsparolen-von-kantonalzurcher-und-nationalen-parteien,Naaae14c910dc4c36972ebf383bab3ea8,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Abstimmungsresultate Stadt St.Gallen 2017-2019,https://ckan.opendata.swiss/dataset/abstimmungsresultate-stadt-st-gallen-2017-2019,https://daten.stadt.sg.ch/api/v2/catalog/datasets/abstimmungsresultate-stadt-stgallen-2017-2020,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Abstimmungsresultate Stadt St.Gallen 2017-2019,https://ckan.opendata.swiss/dataset/abstimmungsresultate-stadt-st-gallen-2017-2019,https://daten.stadt.sg.ch/api/v2/catalog/datasets/abstimmungsresultate-stadt-stgallen-2017-2020,dct:publisher,https://daten.stadt.sg.ch/explore/?refine.dcat_ap_ch.domain=stadt-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+erich.gollino@stadt.sg.ch,erich.gollino@stadt.sg.ch,kanton-st-gallen,"Abstimmungsvorlagen und Wahlereignisse nach Termin, Kanton St.Gallen und STISTAT-Gemeinden, seit 2017 (Stadt St.Gallen seit 2010)",https://ckan.opendata.swiss/dataset/abstimmungsvorlagen-und-wahlereignisse-nach-termin-kanton-st-gallen-und-stistat-gemeinden-2010,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungsvorlagen-und-wahlereignisse-kanton-stgallen-und-stistat-gemeinden,dct:publisher,https://daten.sg.ch/explore/?refine.dcat_ap_ch.domain=kanton-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+nicola.wullschleger@stadt.sg.ch,nicola.wullschleger@stadt.sg.ch,kanton-st-gallen,"Abstimmungsvorlagen und Wahlereignisse nach Termin, Kanton St.Gallen und STISTAT-Gemeinden, seit 2017 (Stadt St.Gallen seit 2010)",https://ckan.opendata.swiss/dataset/abstimmungsvorlagen-und-wahlereignisse-nach-termin-kanton-st-gallen-und-stistat-gemeinden-2010,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungsvorlagen-und-wahlereignisse-kanton-stgallen-und-stistat-gemeinden,dct:publisher,https://daten.sg.ch/explore/?refine.dcat_ap_ch.domain=kanton-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+rahel.rusterholz2@stadt.sg.ch,rahel.rusterholz2@stadt.sg.ch,kanton-st-gallen,"Abstimmungsvorlagen und Wahlereignisse nach Termin, Kanton St.Gallen und STISTAT-Gemeinden, seit 2017 (Stadt St.Gallen seit 2010)",https://ckan.opendata.swiss/dataset/abstimmungsvorlagen-und-wahlereignisse-nach-termin-kanton-st-gallen-und-stistat-gemeinden-2010,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungsvorlagen-und-wahlereignisse-kanton-stgallen-und-stistat-gemeinden,dct:publisher,https://daten.sg.ch/explore/?refine.dcat_ap_ch.domain=kanton-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+erich.gollino@stadt.sg.ch,erich.gollino@stadt.sg.ch,kanton-st-gallen,"Abstimmungsvorlagen und Wahlereignisse nach Termin, Kanton St.Gallen und STISTAT-Gemeinden, seit 2017 (Stadt St.Gallen seit 2010)",https://ckan.opendata.swiss/dataset/abstimmungsvorlagen-und-wahlereignisse-nach-termin-kanton-st-gallen-und-stistat-gemeinden-2010,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungsvorlagen-und-wahlereignisse-kanton-stgallen-und-stistat-gemeinden,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+nicola.wullschleger@stadt.sg.ch,nicola.wullschleger@stadt.sg.ch,kanton-st-gallen,"Abstimmungsvorlagen und Wahlereignisse nach Termin, Kanton St.Gallen und STISTAT-Gemeinden, seit 2017 (Stadt St.Gallen seit 2010)",https://ckan.opendata.swiss/dataset/abstimmungsvorlagen-und-wahlereignisse-nach-termin-kanton-st-gallen-und-stistat-gemeinden-2010,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungsvorlagen-und-wahlereignisse-kanton-stgallen-und-stistat-gemeinden,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+rahel.rusterholz2@stadt.sg.ch,rahel.rusterholz2@stadt.sg.ch,kanton-st-gallen,"Abstimmungsvorlagen und Wahlereignisse nach Termin, Kanton St.Gallen und STISTAT-Gemeinden, seit 2017 (Stadt St.Gallen seit 2010)",https://ckan.opendata.swiss/dataset/abstimmungsvorlagen-und-wahlereignisse-nach-termin-kanton-st-gallen-und-stistat-gemeinden-2010,https://daten.sg.ch/api/v2/catalog/datasets/abstimmungsvorlagen-und-wahlereignisse-kanton-stgallen-und-stistat-gemeinden,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Abwassermonitoring: Influenza und RSV,https://ckan.opendata.swiss/dataset/abwassermonitoring-influenza-und-rsv,https://data.bs.ch/api/v2/catalog/datasets/100302,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Kantonales+Laboratorium,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Abwassermonitoring: Influenza und RSV,https://ckan.opendata.swiss/dataset/abwassermonitoring-influenza-und-rsv,https://data.bs.ch/api/v2/catalog/datasets/100302,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Kantonales+Laboratorium,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Abwassermonitoring: Influenza und RSV,https://ckan.opendata.swiss/dataset/abwassermonitoring-influenza-und-rsv,https://data.bs.ch/api/v2/catalog/datasets/100302,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Kantonales+Laboratorium,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Einzugsgebiet der ARA Basel,https://ckan.opendata.swiss/dataset/abwassermonitoring-untersuchungsgebiet,https://data.bs.ch/api/v2/catalog/datasets/100336,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Statistisches+Amt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Einzugsgebiet der ARA Basel,https://ckan.opendata.swiss/dataset/abwassermonitoring-untersuchungsgebiet,https://data.bs.ch/api/v2/catalog/datasets/100336,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Statistisches+Amt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Einzugsgebiet der ARA Basel,https://ckan.opendata.swiss/dataset/abwassermonitoring-untersuchungsgebiet,https://data.bs.ch/api/v2/catalog/datasets/100336,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Statistisches+Amt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,A dataset of 40000 trees with section-wise measured stem diameter and length and volume of branches from across Switzerland,https://ckan.opendata.swiss/dataset/a-dataset-of-40000-trees-with-section-wise-measured-stem-diameter-and-length-and-volume-of-bran,https://www.envidat.ch/#/metadata/a-dataset-of-40000-trees-with-section-wise-measured-stem-diameter-and-length-and,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,A dataset of 40000 trees with section-wise measured stem diameter and length and volume of branches from across Switzerland,https://ckan.opendata.swiss/dataset/a-dataset-of-40000-trees-with-section-wise-measured-stem-diameter-and-length-and-volume-of-bran,https://www.envidat.ch/#/metadata/a-dataset-of-40000-trees-with-section-wise-measured-stem-diameter-and-length-and,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,A dataset of 40000 trees with section-wise measured stem diameter and length and volume of branches from across Switzerland,https://ckan.opendata.swiss/dataset/a-dataset-of-40000-trees-with-section-wise-measured-stem-diameter-and-length-and-volume-of-bran,https://www.envidat.ch/#/metadata/a-dataset-of-40000-trees-with-section-wise-measured-stem-diameter-and-length-and,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Addetti e addetti equivalenti al tempo pieno (ETP) secondo il gruppo economico, il settore pubblico o privato, la classe dimensionale dell'azienda e il sesso, in Ticino, dal 2011 al 2022",https://ckan.opendata.swiss/dataset/addetti-e-addetti-equivalenti-al-tempo-pieno-etp-secondo-il-gruppo-economico-il-settore-pu-2021,N37aecb6a1c85452098f93bed4c0c54f9,dct:publisher,https://www.ti.ch/ustat,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Addetti e addetti equivalenti al tempo pieno (ETP) secondo il gruppo economico, il settore pubblico o privato, la classe dimensionale dell'azienda e il sesso, in Ticino, dal 2011 al 2022",https://ckan.opendata.swiss/dataset/addetti-e-addetti-equivalenti-al-tempo-pieno-etp-secondo-il-gruppo-economico-il-settore-pu-2021,N37aecb6a1c85452098f93bed4c0c54f9,dct:language,it,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+ogd@bl.ch,ogd@bl.ch,kanton-basel-landschaft,Adressen der anerkannten Institutionen im Bereich der frühen Sprachförderung,https://ckan.opendata.swiss/dataset/adressen-der-anerkannten-institutionen-im-bereich-der-fruhen-sprachforderung,https://data.bl.ch/api/v2/catalog/datasets/12960,dct:publisher,https://data.bl.ch/explore/?refine.dcat_ap_ch.domain=kanton-basel-landschaft,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+ogd@bl.ch,ogd@bl.ch,kanton-basel-landschaft,"Adressen der Berufs-, Mittel- und Hochschulen",https://ckan.opendata.swiss/dataset/adressen-der-berufs-mittel-und-hochschulen-marz-2025,https://data.bl.ch/api/v2/catalog/datasets/11180,dct:publisher,https://data.bl.ch/explore/?refine.dcat_ap_ch.domain=kanton-basel-landschaft,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+ogd@bl.ch,ogd@bl.ch,kanton-basel-landschaft,Adressen der Gemeindeverwaltungen,https://ckan.opendata.swiss/dataset/adressen-der-gemeindeverwaltungen-september-2022,https://data.bl.ch/api/v2/catalog/datasets/10510,dct:publisher,https://data.bl.ch/explore/?refine.dcat_ap_ch.domain=kanton-basel-landschaft,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+ogd@bl.ch,ogd@bl.ch,kanton-basel-landschaft,"Adressen der Primar-, Sekundar- und Musikschulen",https://ckan.opendata.swiss/dataset/adressen-der-primar-sekundar-und-musikschulen-juni-2024,https://data.bl.ch/api/v2/catalog/datasets/11150,dct:publisher,https://data.bl.ch/explore/?refine.dcat_ap_ch.domain=kanton-basel-landschaft,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+ogd@bl.ch,ogd@bl.ch,kanton-basel-landschaft,Adressen der Privatschulen,https://ckan.opendata.swiss/dataset/adressen-der-privatschulen-juni-2024,https://data.bl.ch/api/v2/catalog/datasets/11160,dct:publisher,https://data.bl.ch/explore/?refine.dcat_ap_ch.domain=kanton-basel-landschaft,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+ogd@bl.ch,ogd@bl.ch,kanton-basel-landschaft,Adressen der Sonderschulen und Schulheime,https://ckan.opendata.swiss/dataset/adressen-der-sonderschulen-und-schulheime-juni-2024,https://data.bl.ch/api/v2/catalog/datasets/11200,dct:publisher,https://data.bl.ch/explore/?refine.dcat_ap_ch.domain=kanton-basel-landschaft,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Advancing sustainable LED solutions to mitigate light-pollution impacts on arthropods,https://ckan.opendata.swiss/dataset/advancing-sustainable-led-solutions-to-mitigate-light-pollution-impacts-on-arthropods,https://www.envidat.ch/#/metadata/alan---nature-sustainability,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Advancing sustainable LED solutions to mitigate light-pollution impacts on arthropods,https://ckan.opendata.swiss/dataset/advancing-sustainable-led-solutions-to-mitigate-light-pollution-impacts-on-arthropods,https://www.envidat.ch/#/metadata/alan---nature-sustainability,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Advancing sustainable LED solutions to mitigate light-pollution impacts on arthropods,https://ckan.opendata.swiss/dataset/advancing-sustainable-led-solutions-to-mitigate-light-pollution-impacts-on-arthropods,https://www.envidat.ch/#/metadata/alan---nature-sustainability,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Aerosol Data Davos Wolfgang,https://ckan.opendata.swiss/dataset/aerosol-data-davos-wolfgang,https://www.envidat.ch/#/metadata/aerosol-data-davos-wolfgang,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Aerosol Data Davos Wolfgang,https://ckan.opendata.swiss/dataset/aerosol-data-davos-wolfgang,https://www.envidat.ch/#/metadata/aerosol-data-davos-wolfgang,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Aerosol Data Davos Wolfgang,https://ckan.opendata.swiss/dataset/aerosol-data-davos-wolfgang,https://www.envidat.ch/#/metadata/aerosol-data-davos-wolfgang,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Aerosol Data Weissfluhjoch,https://ckan.opendata.swiss/dataset/aerosol-data-weissfluhjoch,https://www.envidat.ch/#/metadata/aerosol-data-weissfluhjoch,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Aerosol Data Weissfluhjoch,https://ckan.opendata.swiss/dataset/aerosol-data-weissfluhjoch,https://www.envidat.ch/#/metadata/aerosol-data-weissfluhjoch,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,Aerosol Data Weissfluhjoch,https://ckan.opendata.swiss/dataset/aerosol-data-weissfluhjoch,https://www.envidat.ch/#/metadata/aerosol-data-weissfluhjoch,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Aerzte [Anz.],https://ckan.opendata.swiss/dataset/aerzte-anz,Ne0e15ab0c4bd4d809802c00bb4cd17c6,dcat:theme,http://opendata.swiss/themes/Health,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Aerzte [Anz.],https://ckan.opendata.swiss/dataset/aerzte-anz,Ne0e15ab0c4bd4d809802c00bb4cd17c6,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Aerzte [Anz.],https://ckan.opendata.swiss/dataset/aerzte-anz,Ne0e15ab0c4bd4d809802c00bb4cd17c6,dct:publisher,N40e4692b14bd4a4da0f388745e4af9fa,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Aerzte [pro 1000 Einw.],https://ckan.opendata.swiss/dataset/aerzte-pro-1000-einw,N6670a203a8b044888fed34f8c4fd1b9c,dcat:theme,http://opendata.swiss/themes/Health,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Aerzte [pro 1000 Einw.],https://ckan.opendata.swiss/dataset/aerzte-pro-1000-einw,N6670a203a8b044888fed34f8c4fd1b9c,dct:publisher,N4e751530938c43639bd61d49292c6cf5,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+info@open.zh.ch,info@open.zh.ch,statistisches-amt-kanton-zuerich,Aerzte [pro 1000 Einw.],https://ckan.opendata.swiss/dataset/aerzte-pro-1000-einw,N6670a203a8b044888fed34f8c4fd1b9c,dct:language,de,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,AFF agricultural land change scenarios in Europe 2015-2050,https://ckan.opendata.swiss/dataset/aff-agricultural-land-change-scenarios-in-europe-2015-20501,https://www.envidat.ch/#/metadata/scenarios,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,AFF agricultural land change scenarios in Europe 2015-2050,https://ckan.opendata.swiss/dataset/aff-agricultural-land-change-scenarios-in-europe-2015-20501,https://www.envidat.ch/#/metadata/scenarios,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,AFF agricultural land change scenarios in Europe 2015-2050,https://ckan.opendata.swiss/dataset/aff-agricultural-land-change-scenarios-in-europe-2015-20501,https://www.envidat.ch/#/metadata/scenarios,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,A grain-size driven transition in the deformation mechanism in slow snow compression,https://ckan.opendata.swiss/dataset/a-grain-size-driven-transition-in-the-deformation-mechanism-in-slow-snow-compression,https://www.envidat.ch/#/metadata/slow-snow-compression,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,A grain-size driven transition in the deformation mechanism in slow snow compression,https://ckan.opendata.swiss/dataset/a-grain-size-driven-transition-in-the-deformation-mechanism-in-slow-snow-compression,https://www.envidat.ch/#/metadata/slow-snow-compression,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,A grain-size driven transition in the deformation mechanism in slow snow compression,https://ckan.opendata.swiss/dataset/a-grain-size-driven-transition-in-the-deformation-mechanism-in-slow-snow-compression,https://www.envidat.ch/#/metadata/slow-snow-compression,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,A high-resolution snow and hydrometeorological dataset for the Dischma region in Switzerland,https://ckan.opendata.swiss/dataset/a-high-resolution-snow-and-hydrometeorological-dataset-for-the-dischma-region-in-switzerland,https://www.envidat.ch/#/metadata/inarch-dischma-dataset,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,A high-resolution snow and hydrometeorological dataset for the Dischma region in Switzerland,https://ckan.opendata.swiss/dataset/a-high-resolution-snow-and-hydrometeorological-dataset-for-the-dischma-region-in-switzerland,https://www.envidat.ch/#/metadata/inarch-dischma-dataset,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,A high-resolution snow and hydrometeorological dataset for the Dischma region in Switzerland,https://ckan.opendata.swiss/dataset/a-high-resolution-snow-and-hydrometeorological-dataset-for-the-dischma-region-in-switzerland,https://www.envidat.ch/#/metadata/inarch-dischma-dataset,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Aktenplan Stadt St.Gallen,https://ckan.opendata.swiss/dataset/aktenplan-stadt-st-gallen,https://daten.stadt.sg.ch/api/v2/catalog/datasets/aktenplan-stadt-stgallen,dcat:theme,http://opendata.swiss/themes/administration,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Aktenplan Stadt St.Gallen,https://ckan.opendata.swiss/dataset/aktenplan-stadt-st-gallen,https://daten.stadt.sg.ch/api/v2/catalog/datasets/aktenplan-stadt-stgallen,dct:publisher,https://daten.stadt.sg.ch/explore/?refine.dcat_ap_ch.domain=stadt-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Aktuelle Baustellen Stadt St.Gallen,https://ckan.opendata.swiss/dataset/aktuelle-baustellen,https://daten.stadt.sg.ch/api/v2/catalog/datasets/aktuelle-baustellen,dcat:theme,http://opendata.swiss/themes/mobility,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Aktuelle Baustellen Stadt St.Gallen,https://ckan.opendata.swiss/dataset/aktuelle-baustellen,https://daten.stadt.sg.ch/api/v2/catalog/datasets/aktuelle-baustellen,dct:publisher,https://daten.stadt.sg.ch/explore/?refine.dcat_ap_ch.domain=stadt-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Aktuelle Belegung der öffentlichen Parkhäuser Basel,https://ckan.opendata.swiss/dataset/aktuelle-belegung-der-offentlichen-parkhauser-basel,https://data.bs.ch/api/v2/catalog/datasets/100088,dcat:theme,http://opendata.swiss/themes/mobility,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Aktuelle Belegung der öffentlichen Parkhäuser Basel,https://ckan.opendata.swiss/dataset/aktuelle-belegung-der-offentlichen-parkhauser-basel,https://data.bs.ch/api/v2/catalog/datasets/100088,dcat:theme,http://opendata.swiss/themes/mobility,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Aktuelle Belegung der öffentlichen Parkhäuser Basel,https://ckan.opendata.swiss/dataset/aktuelle-belegung-der-offentlichen-parkhauser-basel,https://data.bs.ch/api/v2/catalog/datasets/100088,dcat:theme,http://opendata.swiss/themes/mobility,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Aktuelle Belegung der öffentlichen Parkhäuser Basel,https://ckan.opendata.swiss/dataset/aktuelle-belegung-der-offentlichen-parkhauser-basel,https://data.bs.ch/api/v2/catalog/datasets/100088,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Parkh%C3%A4user+Basel-Stadt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Aktuelle Belegung der öffentlichen Parkhäuser Basel,https://ckan.opendata.swiss/dataset/aktuelle-belegung-der-offentlichen-parkhauser-basel,https://data.bs.ch/api/v2/catalog/datasets/100088,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Parkh%C3%A4user+Basel-Stadt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Aktuelle Belegung der öffentlichen Parkhäuser Basel,https://ckan.opendata.swiss/dataset/aktuelle-belegung-der-offentlichen-parkhauser-basel,https://data.bs.ch/api/v2/catalog/datasets/100088,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Parkh%C3%A4user+Basel-Stadt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+felix.lorenz@tg.ch,felix.lorenz@tg.ch,kanton-thurgau,Aktuelle Mitglieder des Grossen Rats des Kantons Thurgau,https://ckan.opendata.swiss/dataset/aktuelle-mitglieder-des-grossen-rats-des-kantons-thurgau,https://data.tg.ch/api/v2/catalog/datasets/sk-stat-138,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+daniela.koller@tg.ch,daniela.koller@tg.ch,kanton-thurgau,Aktuelle Mitglieder des Grossen Rats des Kantons Thurgau,https://ckan.opendata.swiss/dataset/aktuelle-mitglieder-des-grossen-rats-des-kantons-thurgau,https://data.tg.ch/api/v2/catalog/datasets/sk-stat-138,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+bernd.hebel@tg.ch,bernd.hebel@tg.ch,kanton-thurgau,Aktuelle Mitglieder des Grossen Rats des Kantons Thurgau,https://ckan.opendata.swiss/dataset/aktuelle-mitglieder-des-grossen-rats-des-kantons-thurgau,https://data.tg.ch/api/v2/catalog/datasets/sk-stat-138,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+ogd@tg.ch,ogd@tg.ch,kanton-thurgau,Aktuelle Mitglieder des Grossen Rats des Kantons Thurgau,https://ckan.opendata.swiss/dataset/aktuelle-mitglieder-des-grossen-rats-des-kantons-thurgau,https://data.tg.ch/api/v2/catalog/datasets/sk-stat-138,dct:publisher,https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+opendata@stadt.sg.ch,OGD-Koordinationsstelle St.Gallen,stadt-st-gallen,Aktuelle Stromproduktion der Solaranlagen der St.Galler Stadtwerke (Pilotprojekt Kraftwerk St.Gallen),https://ckan.opendata.swiss/dataset/aktuelle-stromproduktion-der-solaranlagen-der-st-galler-stadtwerke-pilotprojekt-kraftwerk-st-ga,https://daten.stadt.sg.ch/api/v2/catalog/datasets/aktuelle-stromproduktion-der-solaranlagen-der-stgaller-stadtwerke,dct:publisher,https://daten.stadt.sg.ch/explore/?refine.dcat_ap_ch.domain=stadt-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Aktuelle Temperaturen der Gartenbäder,https://ckan.opendata.swiss/dataset/aktuelle-temperaturen-der-gartenbader,https://data.bs.ch/api/v2/catalog/datasets/100388,dcat:theme,http://opendata.swiss/themes/culture,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Aktuelle Temperaturen der Gartenbäder,https://ckan.opendata.swiss/dataset/aktuelle-temperaturen-der-gartenbader,https://data.bs.ch/api/v2/catalog/datasets/100388,dcat:theme,http://opendata.swiss/themes/culture,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Aktuelle Temperaturen der Gartenbäder,https://ckan.opendata.swiss/dataset/aktuelle-temperaturen-der-gartenbader,https://data.bs.ch/api/v2/catalog/datasets/100388,dcat:theme,http://opendata.swiss/themes/culture,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Aktuelle Temperaturen der Gartenbäder,https://ckan.opendata.swiss/dataset/aktuelle-temperaturen-der-gartenbader,https://data.bs.ch/api/v2/catalog/datasets/100388,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Jugend%2C+Familie+und+Sport,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Aktuelle Temperaturen der Gartenbäder,https://ckan.opendata.swiss/dataset/aktuelle-temperaturen-der-gartenbader,https://data.bs.ch/api/v2/catalog/datasets/100388,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Jugend%2C+Familie+und+Sport,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Aktuelle Temperaturen der Gartenbäder,https://ckan.opendata.swiss/dataset/aktuelle-temperaturen-der-gartenbader,https://data.bs.ch/api/v2/catalog/datasets/100388,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Jugend%2C+Familie+und+Sport,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+erich.gollino@stadt.sg.ch,erich.gollino@stadt.sg.ch,kanton-st-gallen,Aktuelle Wahl- bzw. Abstimmungsresultate Kanton St.Gallen,https://ckan.opendata.swiss/dataset/aktuelle-wahl-bzw-abstimmungsresultate-kanton-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/aktuelle-wahl-bzw-abstimmungen-kanton-stgallen,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+nicola.wullschleger@stadt.sg.ch,nicola.wullschleger@stadt.sg.ch,kanton-st-gallen,Aktuelle Wahl- bzw. Abstimmungsresultate Kanton St.Gallen,https://ckan.opendata.swiss/dataset/aktuelle-wahl-bzw-abstimmungsresultate-kanton-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/aktuelle-wahl-bzw-abstimmungen-kanton-stgallen,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+rahel.rusterholz2@stadt.sg.ch,rahel.rusterholz2@stadt.sg.ch,kanton-st-gallen,Aktuelle Wahl- bzw. Abstimmungsresultate Kanton St.Gallen,https://ckan.opendata.swiss/dataset/aktuelle-wahl-bzw-abstimmungsresultate-kanton-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/aktuelle-wahl-bzw-abstimmungen-kanton-stgallen,dcat:theme,http://opendata.swiss/themes/politics,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+erich.gollino@stadt.sg.ch,erich.gollino@stadt.sg.ch,kanton-st-gallen,Aktuelle Wahl- bzw. Abstimmungsresultate Kanton St.Gallen,https://ckan.opendata.swiss/dataset/aktuelle-wahl-bzw-abstimmungsresultate-kanton-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/aktuelle-wahl-bzw-abstimmungen-kanton-stgallen,dct:publisher,https://daten.sg.ch/explore/?refine.dcat_ap_ch.domain=kanton-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+nicola.wullschleger@stadt.sg.ch,nicola.wullschleger@stadt.sg.ch,kanton-st-gallen,Aktuelle Wahl- bzw. Abstimmungsresultate Kanton St.Gallen,https://ckan.opendata.swiss/dataset/aktuelle-wahl-bzw-abstimmungsresultate-kanton-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/aktuelle-wahl-bzw-abstimmungen-kanton-stgallen,dct:publisher,https://daten.sg.ch/explore/?refine.dcat_ap_ch.domain=kanton-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+rahel.rusterholz2@stadt.sg.ch,rahel.rusterholz2@stadt.sg.ch,kanton-st-gallen,Aktuelle Wahl- bzw. Abstimmungsresultate Kanton St.Gallen,https://ckan.opendata.swiss/dataset/aktuelle-wahl-bzw-abstimmungsresultate-kanton-st-gallen,https://daten.sg.ch/api/v2/catalog/datasets/aktuelle-wahl-bzw-abstimmungen-kanton-stgallen,dct:publisher,https://daten.sg.ch/explore/?refine.dcat_ap_ch.domain=kanton-st-gallen,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,ALAN Spongy Moth Laboratory Experiment,https://ckan.opendata.swiss/dataset/alan-spongy-moth-laboratory-experiment,https://www.envidat.ch/#/metadata/alan-spongy-moth-laboratory-experiment,dct:publisher,https://envidat.ch/#/about,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,ALAN Spongy Moth Laboratory Experiment,https://ckan.opendata.swiss/dataset/alan-spongy-moth-laboratory-experiment,https://www.envidat.ch/#/metadata/alan-spongy-moth-laboratory-experiment,dct:language,en,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+envidat@wsl.ch,envidat@wsl.ch,envidat,ALAN Spongy Moth Laboratory Experiment,https://ckan.opendata.swiss/dataset/alan-spongy-moth-laboratory-experiment,https://www.envidat.ch/#/metadata/alan-spongy-moth-laboratory-experiment,dcat:theme,http://opendata.swiss/themes/education,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Erfasste Betriebe, Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Beherbergungsart seit 1980",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-erfasste-betriebe-gasteankunfte-logiernachte-und-aufenthaltsdauer-19801,https://catalog.opendata.li/resources/362.001,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Erfasste Betriebe, Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Beherbergungsart seit 1980",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-erfasste-betriebe-gasteankunfte-logiernachte-und-aufenthaltsdauer-19801,https://catalog.opendata.li/resources/362.001,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Erfasste Betriebe, Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Beherbergungsart seit 1980",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-erfasste-betriebe-gasteankunfte-logiernachte-und-aufenthaltsdauer-19801,https://catalog.opendata.li/resources/362.001,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Erfasste Betriebe, Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Beherbergungsart seit 1980",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-erfasste-betriebe-gasteankunfte-logiernachte-und-aufenthaltsdauer-19801,https://catalog.opendata.li/resources/362.001,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Herkunftsland und Beherbergungsart seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-herkunftsland-2012,https://catalog.opendata.li/resources/362.004,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Herkunftsland und Beherbergungsart seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-herkunftsland-2012,https://catalog.opendata.li/resources/362.004,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Herkunftsland und Beherbergungsart seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-herkunftsland-2012,https://catalog.opendata.li/resources/362.004,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Herkunftsland und Beherbergungsart seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-herkunftsland-2012,https://catalog.opendata.li/resources/362.004,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Herkunftsland und Monat seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-herkunftsland-20121,https://catalog.opendata.li/resources/362.005,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Herkunftsland und Monat seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-herkunftsland-20121,https://catalog.opendata.li/resources/362.005,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Herkunftsland und Monat seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-herkunftsland-20121,https://catalog.opendata.li/resources/362.005,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Herkunftsland und Monat seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-herkunftsland-20121,https://catalog.opendata.li/resources/362.005,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Monat und Beherbergungsart seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-monat-und-beh-20121,https://catalog.opendata.li/resources/362.002,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Monat und Beherbergungsart seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-monat-und-beh-20121,https://catalog.opendata.li/resources/362.002,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Monat und Beherbergungsart seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-monat-und-beh-20121,https://catalog.opendata.li/resources/362.002,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Monat und Beherbergungsart seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-monat-und-beh-20121,https://catalog.opendata.li/resources/362.002,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Region, Betriebsstandort und Monat seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-region-betrie-20121,https://catalog.opendata.li/resources/362.003,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Region, Betriebsstandort und Monat seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-region-betrie-20121,https://catalog.opendata.li/resources/362.003,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Region, Betriebsstandort und Monat seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-region-betrie-20121,https://catalog.opendata.li/resources/362.003,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl," Alle Beherbergungsarten - Gästeankünfte, Logiernächte und Aufenthaltsdauer nach Region, Betriebsstandort und Monat seit 2012",https://ckan.opendata.swiss/dataset/alle-beherbergungsarten-gasteankunfte-logiernachte-und-aufenthaltsdauer-nach-region-betrie-20121,https://catalog.opendata.li/resources/362.003,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Alle Versicherungsarten - Betriebsrechnung in CHF nach Kennzahl und Versicherungsart seit 2001,https://ckan.opendata.swiss/dataset/alle-versicherungsarten-betriebsrechnung-in-chf-nach-kennzahl-und-versicherungsart-seit-2001,https://catalog.opendata.li/resources/462.101d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Alle Versicherungsarten - Betriebsrechnung in CHF nach Kennzahl und Versicherungsart seit 2001,https://ckan.opendata.swiss/dataset/alle-versicherungsarten-betriebsrechnung-in-chf-nach-kennzahl-und-versicherungsart-seit-2001,https://catalog.opendata.li/resources/462.101d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Alle Versicherungsarten - Betriebsrechnung in CHF nach Kennzahl und Versicherungsart seit 2001,https://ckan.opendata.swiss/dataset/alle-versicherungsarten-betriebsrechnung-in-chf-nach-kennzahl-und-versicherungsart-seit-2001,https://catalog.opendata.li/resources/462.101d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Alle Versicherungsarten - Betriebsrechnung in CHF nach Kennzahl und Versicherungsart seit 2001,https://ckan.opendata.swiss/dataset/alle-versicherungsarten-betriebsrechnung-in-chf-nach-kennzahl-und-versicherungsart-seit-2001,https://catalog.opendata.li/resources/462.101d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Alle Versicherungsarten - Reserven der Versicherer in CHF nach Versicherungsart seit 2004,https://ckan.opendata.swiss/dataset/alle-versicherungsarten-reserven-der-versicherer-in-chf-nach-versicherungsart-seit-2004,https://catalog.opendata.li/resources/462.102d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Alle Versicherungsarten - Reserven der Versicherer in CHF nach Versicherungsart seit 2004,https://ckan.opendata.swiss/dataset/alle-versicherungsarten-reserven-der-versicherer-in-chf-nach-versicherungsart-seit-2004,https://catalog.opendata.li/resources/462.102d,foaf:page,https://catalog.opendata.li/store/29/resource/3250,Warning,"Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation
+	",dcat,shacl,shaclchecker_error.html
+adina.tellenbach@llv.li,adina.tellenbach@llv.li,amt-fuer-statistik-fl, Alle Versicherungsarten - Reserven der Versicherer in CHF nach Versicherungsart seit 2004,https://ckan.opendata.swiss/dataset/alle-versicherungsarten-reserven-der-versicherer-in-chf-nach-versicherungsart-seit-2004,https://catalog.opendata.li/resources/462.102d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Mario.Hanselmann@llv.li,Mario.Hanselmann@llv.li,amt-fuer-statistik-fl, Alle Versicherungsarten - Reserven der Versicherer in CHF nach Versicherungsart seit 2004,https://ckan.opendata.swiss/dataset/alle-versicherungsarten-reserven-der-versicherer-in-chf-nach-versicherungsart-seit-2004,https://catalog.opendata.li/resources/462.102d,dct:publisher,https://catalog.opendata.li/resource/organisation,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Allievi e studenti delle scuole ticinesi, secondo il sesso, l'ordine e il carattere della scuola, per luogo di residenza, dall'anno scolastico 2015/16 al 2023/24",https://ckan.opendata.swiss/dataset/allievi-e-studenti-delle-scuole-ticinesi-secondo-il-sesso-lordine-e-il-carattere-della-2021-22,Ndaebcd46dae5424885f06402986f2d62,dct:language,it,Warning,"Class 'dcat:Dataset' - Property 'dct:language': The language must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/language.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-language
+        ",dcat,shacl,shaclchecker_error.html
+dfe-ustat@ti.ch,Ufficio di statistica del Canton Ticino (Ustat),ustat,"Allievi e studenti delle scuole ticinesi, secondo il sesso, l'ordine e il carattere della scuola, per luogo di residenza, dall'anno scolastico 2015/16 al 2023/24",https://ckan.opendata.swiss/dataset/allievi-e-studenti-delle-scuole-ticinesi-secondo-il-sesso-lordine-e-il-carattere-della-2021-22,Ndaebcd46dae5424885f06402986f2d62,dct:publisher,https://www.ti.ch/ustat,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Allmendbewilligungen,https://ckan.opendata.swiss/dataset/allmendbewilligungen,https://data.bs.ch/api/v2/catalog/datasets/100018,dcat:theme,http://opendata.swiss/themes/public-order,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Allmendbewilligungen,https://ckan.opendata.swiss/dataset/allmendbewilligungen,https://data.bs.ch/api/v2/catalog/datasets/100018,dcat:theme,http://opendata.swiss/themes/public-order,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Allmendbewilligungen,https://ckan.opendata.swiss/dataset/allmendbewilligungen,https://data.bs.ch/api/v2/catalog/datasets/100018,dcat:theme,http://opendata.swiss/themes/public-order,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Allmendbewilligungen,https://ckan.opendata.swiss/dataset/allmendbewilligungen,https://data.bs.ch/api/v2/catalog/datasets/100018,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Tiefbauamt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Allmendbewilligungen,https://ckan.opendata.swiss/dataset/allmendbewilligungen,https://data.bs.ch/api/v2/catalog/datasets/100018,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Tiefbauamt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Allmendbewilligungen,https://ckan.opendata.swiss/dataset/allmendbewilligungen,https://data.bs.ch/api/v2/catalog/datasets/100018,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Tiefbauamt,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Alltagsvelorouten,https://ckan.opendata.swiss/dataset/alltagsvelorouten,https://data.bs.ch/api/v2/catalog/datasets/100032,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Amt+f%C3%BCr+Mobilit%C3%A4t,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Alltagsvelorouten,https://ckan.opendata.swiss/dataset/alltagsvelorouten,https://data.bs.ch/api/v2/catalog/datasets/100032,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Amt+f%C3%BCr+Mobilit%C3%A4t,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Alltagsvelorouten,https://ckan.opendata.swiss/dataset/alltagsvelorouten,https://data.bs.ch/api/v2/catalog/datasets/100032,dct:publisher,https://data.bs.ch/explore/?refine.publisher=Amt+f%C3%BCr+Mobilit%C3%A4t,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+jonas.eckenfels@bs.ch,jonas.eckenfels@bs.ch,kanton-basel-stadt,Alltagsvelorouten,https://ckan.opendata.swiss/dataset/alltagsvelorouten,https://data.bs.ch/api/v2/catalog/datasets/100032,dcat:theme,http://opendata.swiss/themes/mobility,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+jonas.bieri@bs.ch,jonas.bieri@bs.ch,kanton-basel-stadt,Alltagsvelorouten,https://ckan.opendata.swiss/dataset/alltagsvelorouten,https://data.bs.ch/api/v2/catalog/datasets/100032,dcat:theme,http://opendata.swiss/themes/mobility,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+Boris.Djakovic@bs.ch,Boris.Djakovic@bs.ch,kanton-basel-stadt,Alltagsvelorouten,https://ckan.opendata.swiss/dataset/alltagsvelorouten,https://data.bs.ch/api/v2/catalog/datasets/100032,dcat:theme,http://opendata.swiss/themes/mobility,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+OpenData@sbb.ch,OpenData@sbb.ch,oevch,Alpha: Linked Open Data Pilot: Atlas und einige NOVA Preise,https://ckan.opendata.swiss/dataset/alpha-linked-open-data-pilot-atlas-und-einige-nova-preise,https://data.opentransportdata.swiss/dataset/087a025b-292c-4497-935d-ee3c67c96094,dct:publisher,N68ab14b7680144d496fe7f95014c6aae,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+OpenData@sbb.ch,OpenData@sbb.ch,oevch,Alpha: Linked Open Data Pilot: Atlas und einige NOVA Preise,https://ckan.opendata.swiss/dataset/alpha-linked-open-data-pilot-atlas-und-einige-nova-preise,https://data.opentransportdata.swiss/dataset/087a025b-292c-4497-935d-ee3c67c96094,dcat:theme,http://opendata.swiss/group/mobility,Warning,"Class 'dcat:Dataset' - Property 'dcat:theme': The theme must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/data-theme.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-theme-dcat
+        ",dcat,shacl,shaclchecker_error.html
+OpenData@sbb.ch,OpenData@sbb.ch,oevch,Alpha: Linked Open Data Pilot: Atlas und einige NOVA Preise,https://ckan.opendata.swiss/dataset/alpha-linked-open-data-pilot-atlas-und-einige-nova-preise,https://data.opentransportdata.swiss/dataset/087a025b-292c-4497-935d-ee3c67c96094,dcat:landingPage,https://data.opentransportdata.swiss/dataset/lod-pilot,Warning,"Class 'dcat:Dataset' - Property 'dcat:landingPage': The landing page must be provided as an IRI.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-landingpage-dcat
+        ",dcat,shacl,shaclchecker_error.html
+OpenData@sbb.ch,OpenData@sbb.ch,oevch,(Beta) Angebotsplan NeTEx für On-Demand Verkehre,https://ckan.opendata.swiss/dataset/alpha-timetable-netex-for-demand-responsive-traffic,https://data.opentransportdata.swiss/dataset/da04e7c7-aa9c-47fd-8a78-085f46061f29,dcat:landingPage,https://data.opentransportdata.swiss/dataset/netex_tt_odv,Warning,"Class 'dcat:Dataset' - Property 'dcat:landingPage': The landing page must be provided as an IRI.
+        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-landingpage-dcat
+        ",dcat,shacl,shaclchecker_error.html
+OpenData@sbb.ch,OpenData@sbb.ch,oevch,(Beta) Angebotsplan NeTEx für On-Demand Verkehre,https://ckan.opendata.swiss/dataset/alpha-timetable-netex-for-demand-responsive-traffic,https://data.opentransportdata.swiss/dataset/da04e7c7-aa9c-47fd-8a78-085f46061f29,dct:publisher,Nab9fa47696c145d19f62671f1bc344b4,Violation,"Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher
+	    ",dcat,shacl,shaclchecker_error.html
+OpenData@sbb.ch,OpenData@sbb.ch,oevch,(Beta) Angebotsplan NeTEx für On-Demand Verkehre,https://ckan.opendata.swiss/dataset/alpha-timetable-netex-for-demand-responsive-traffic,https://data.opentransportdata.swiss/dataset/da04e7c7-aa9c-47fd-8a78-085f46061f29,dct:accrualPeriodicity,freq:irregular,Warning,"Class 'dcat:Dataset' - Property 'dct:accrualPeriodicity': The frequency must be selected from the controlled vocabulary available at:
+        http://publications.europa.eu/resource/authority/frequency.
+        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-accrual-periodicity
+        ",dcat,shacl,shaclchecker_error.html
