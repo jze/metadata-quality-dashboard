@@ -38,8 +38,9 @@ OUTPUT_STATUS = OUT / "status.json"
 
 async def main() -> None:
     try:
-        log_env_config()
-
+        log_env_vars()
+        ensure_output_files_exist()
+        
         logger.info("Download all pages from opendata.swiss")
         requests = cat.request_all_pages()
         raw_data = cat.requests_to_json(requests)
@@ -110,13 +111,24 @@ def save_status(file: Path, _status: str, error_message: str = "") -> None:
         json.dump(status, f)
 
 
-def log_env_config() -> None:
-    logger.info(f"OUTPUT_ORG_AUDIT = {OUTPUT_ORG_AUDIT}")
-    logger.info(f"OUTPUT_TOTAL_AUDIT = {OUTPUT_TOTAL_AUDIT}")
-    OUTPUT_ORG_AUDIT.parent.mkdir(exist_ok=True, parents=True)
-    OUTPUT_ORG_AUDIT.touch(exist_ok=True)
-    if "AUDIT_PROXY" in os.environ:
-        logger.info(f"AUDIT_PROXY = {os.environ['AUDIT_PROXY']}")
+def log_env_vars() -> None:
+    logger.info(f"[env] AUDIT_DEV: {os.getenv('AUDIT_DEV', 'None')}")
+    logger.info(f"[env] SHARED: {os.getenv('SHARED', 'None')}")
+    logger.info(f"[env] AUDIT_PROXY: {os.getenv('AUDIT_PROXY', 'None')}")
+
+
+def ensure_output_files_exist():
+    OUT.mkdir(parents=True, exist_ok=True)
+    logger.info(f"Output folder: {OUT}")
+    for path in [
+        OUTPUT_DATASET_AUDIT,
+        OUTPUT_ORG_AUDIT,
+        OUTPUT_TOTAL_AUDIT,
+        OUTPUT_LIST,
+        OUTPUT_STATUS
+    ]:
+        path.touch(exist_ok=True)
+        logger.debug(f"Ensured file exists: {path}")
 
 
 asyncio.run(main())
