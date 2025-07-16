@@ -22,7 +22,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s", level=logging.INFO, datefmt="%H:%M:%S")  # fmt: skip
 logger = logging.getLogger(__name__)
 
-VERSION, VERSION_DATE = 0.7, "13.03.2025"
+VERSION, VERSION_DATE = 0.8, "16.07.2025"
 
 RAW_FILE = DATA / "input_raw" / "all_catalog.jsonld"
 OUT = DATA / "output" if "AUDIT_DEV" in os.environ else "/shared/"
