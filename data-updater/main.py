@@ -25,7 +25,9 @@ logger = logging.getLogger(__name__)
 VERSION, VERSION_DATE = 0.8, "16.07.2025"
 
 RAW_FILE = DATA / "input_raw" / "all_catalog.jsonld"
-OUT = DATA / "output" if "AUDIT_DEV" in os.environ else "/shared/"
+OUT = (
+    DATA / "output" if os.getenv("AUDIT_DEV") else Path(os.getenv("SHARED", "/shared/"))
+)
 
 OUTPUT_DATASET_AUDIT = OUT / "audit_dataset.json"
 OUTPUT_ORG_AUDIT = OUT / "audit_organisation.json"
