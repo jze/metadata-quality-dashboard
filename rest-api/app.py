@@ -18,8 +18,8 @@ STATUS = INPUT_PATH / "status.json"
 # HTTP Connection.
 VERIFY = False
 PROXY = {
-    "http": os.environ.get("AUDIT_HTTP_PROXY", None),
-    "https": os.environ.get("AUDIT_HTTPS_PROXY", None),
+    "http": os.getenv("AUDIT_HTTP_PROXY", None),
+    "https": os.getenv("AUDIT_HTTPS_PROXY", None),
 }
 print(f"INPUT_ORG_AUDIT = {INPUT_ORG_AUDIT}")
 print(f"INPUT_TOTAL_AUDIT = {INPUT_TOTAL_AUDIT}")
