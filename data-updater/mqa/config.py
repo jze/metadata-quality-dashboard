@@ -28,7 +28,7 @@ INPUT_FILE = DATA_DIR / "input_raw" / "all_catalog.jsonld"
 # Output Files.
 OUT = (
     DATA_DIR / "output" 
-    if os.getenv(ENV_AUDIT_DEV) 
+    if os.getenv(ENV_AUDIT_DEV) == "1"
     else Path(os.getenv(ENV_SHARED, "/shared/"))
 )
 OUTPUT_DATASET_AUDIT = OUT / "audit_dataset.json"
