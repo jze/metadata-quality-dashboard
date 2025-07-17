@@ -21,7 +21,7 @@ async def audit_datasets(catalog: list[dict], debug: bool=False) -> dict[str, An
     return await asyncio.gather(*[audit_dataset(dataset, debug=debug) for dataset in catalog])
 
 
-async def audit_dataset(dataset: dict, debug: bool=False) -> dict[str, Any]:
+async def audit_dataset(dataset: dict, debug: bool=False) -> list[dict[str, Any]]:
     """Return the raw audit of a single dataset. Count the number of valid properties (YES) given.
 
     The raw audit contain the total count of positive (YES) values along with `distribution_count` and `organisation_name`.    
@@ -57,7 +57,7 @@ def score_total(audits: list[dict]) -> dict[str, dict]:
     return score({"opendata.swiss": aggregate(audits)})
 
 
-def score(audit_groups: dict) -> dict[str, dict]:
+def score(audit_groups: dict[str, list[dict]]) -> dict[str, dict]:
     """Compute a score for each group of audited metadata, in place"""
     for audit in audit_groups.values():
         to_percent(audit)
@@ -197,9 +197,9 @@ def to_percent(audit: dict[str, Union[int, dict]]) -> None:
     # fmt: on
 
 
-def _safediv(dividend: int, divisor: int) -> int:
+def _safediv(dividend: int, divisor: int) -> float:
     """Return zero instead of a ZeroDivisionError."""
-    return dividend / divisor if divisor > 0 else 0
+    return dividend / divisor if divisor > 0 else 0.
 
 
 def remove_keys(audit: dict) -> None:
