@@ -23,6 +23,7 @@ The system was developed to address inconsistencies in open data metadata and en
 * [Deployment](./documentation/deployment.md)
 * [Run Locally](./documentation/run-locally.md)
 * [Environment Variables](./documentation/environment-variables.md)
+* [API Documentation](./documentation/rest-api.md)
 * [Inter-Process Communication](./documentation/inter-process-communication.md)
 
 
