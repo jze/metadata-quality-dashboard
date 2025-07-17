@@ -33,7 +33,10 @@ This document explains how to run the **Data Updater** and **Rest API** locally 
     11:31:36 INFO: Output folder: C:\Users\U80875594\Documents\Code\Python\metadata-quality-audit\data-updater\data\output
     ```
 
-4. Notice the data saved in `data-updater\data\output`.
+4. Notice the data saved in 
+    ```bash
+    data-updater\data\output
+    ```
 
 
 ## Rest API
