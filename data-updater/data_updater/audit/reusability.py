@@ -1,8 +1,8 @@
-import mqa.audit.utils as au
-import mqa.config as c
-import mqa.vocabulary.dcat_ap_ch as dcat
-import mqa.vocabulary.eu_vocab_access_rights as access_rights
-from mqa.utils import load_json
+import data_updater.audit.utils as au
+import data_updater.config as c
+import data_updater.vocabulary.dcat_ap_ch as dcat
+import data_updater.vocabulary.eu_vocab_access_rights as access_rights
+from data_updater.utils import load_json
 
 ACCESS_RAW = 'access-right-skos.rdf'
 ACCESS_PREPROCESSED = 'access-rights_preprocessed.json'

@@ -1,5 +1,5 @@
 import requests
-from mqa.api.opendata_catalog_jsonld import VERIFY, PROXY, HEADERS
+from data_updater.api.opendata_catalog_jsonld import VERIFY, PROXY, HEADERS
 
 
 def generate_detailed_org_list(organization_audits):

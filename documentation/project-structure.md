@@ -27,7 +27,7 @@ opendata_audit
 │   │   crontab.txt
 │   │   requirements.txt
 │   ├───data
-│   └───package
+│   └───data-updater
 └───rest-api
     │   app.py
     │   Dockerfile
