@@ -9,11 +9,15 @@ from pathlib import Path
 CONSTANT_PATH = Path("./data/constant/")
 OPENDATA_DETAILS = CONSTANT_PATH / "opendata-swiss-details.json"
 
-INPUT_PATH = Path("./data/output/" if "AUDIT_DEV" in os.environ else "/shared/")  # fmt: skip
-INPUT_ORG_AUDIT = INPUT_PATH / "audit_organisation.json"
-INPUT_TOTAL_AUDIT = INPUT_PATH / "audit_total.json"
-DETAILED_LIST = INPUT_PATH / "detailed_organisation_list.json"
-STATUS = INPUT_PATH / "status.json"
+INPUT = Path(
+    "./data/output/"
+    if os.getenv("AUDIT_DEV") == "1"
+    else Path(os.getenv("SHARED", "/shared/"))
+)
+INPUT_ORG_AUDIT = INPUT / "audit_organisation.json"
+INPUT_TOTAL_AUDIT = INPUT / "audit_total.json"
+DETAILED_LIST = INPUT / "detailed_organisation_list.json"
+STATUS = INPUT / "status.json"
 
 # HTTP Connection.
 VERIFY = False
@@ -21,10 +25,10 @@ PROXY = {
     "http": os.getenv("AUDIT_HTTP_PROXY", None),
     "https": os.getenv("AUDIT_HTTPS_PROXY", None),
 }
-print(f"[env] INPUT_ORG_AUDIT: {INPUT_ORG_AUDIT}")
-print(f"[env] INPUT_TOTAL_AUDIT: {INPUT_TOTAL_AUDIT}")
-print(f"[env] AUDIT_HTTP_PROXY: {PROXY['http']}")
-print(f"[env] AUDIT_HTTPS_PROXY: {PROXY['https']}")
+print(f"[env] AUDIT_DEV: {os.getenv('AUDIT_DEV', 'None')}")
+print(f"[env] SHARED: {os.getenv('SHARED', 'None')}")
+print(f"[env] AUDIT_HTTP_PROXY: {os.getenv('AUDIT_HTTP_PROXY', 'None')}")
+print(f"[env] AUDIT_HTTPS_PROXY: {os.getenv('AUDIT_HTTPS_PROXY', 'None')}")
 
 app = Flask(__name__)
 api = Api(app)
