@@ -1,7 +1,7 @@
 import requests
 import warnings
 
-from package.audit.utils import DATASET
+from mqa.audit.utils import DATASET
 
 
 # TODO setup the authentification (verify=Very.certificates(url...))

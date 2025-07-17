@@ -1,4 +1,4 @@
-import package.audit.utils as au
+import mqa.audit.utils as au
 
 
 # dcat:CatalogRecord properties.

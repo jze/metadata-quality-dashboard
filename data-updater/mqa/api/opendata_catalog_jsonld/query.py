@@ -8,7 +8,7 @@ import warnings
 
 from typing import List
 
-from package.config import ENV_AUDIT_HTTP_PROXY, ENV_AUDIT_HTTPS_PROXY
+from mqa.config import ENV_AUDIT_HTTP_PROXY, ENV_AUDIT_HTTPS_PROXY
 
 logger = logging.getLogger(__name__)
 

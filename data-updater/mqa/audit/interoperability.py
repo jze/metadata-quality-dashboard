@@ -1,9 +1,9 @@
-import package.audit.utils as au
-from package.audit.scoring import interoperability_score
-from package.vocabulary.eu_vocab_non_proprietary import NON_PROPRIETARY_VOCABULARY
-from package.vocabulary.eu_vocab_machine_readable import MACHINE_READABLE_VOCABULARY
-from package.vocabulary.eu_vocab_file_type import FILE_TYPE_VOCABULARY
-from package.vocabulary.iana_media_types import MEDIA_TYPE_VOCABULARY
+import mqa.audit.utils as au
+from mqa.audit.scoring import interoperability_score
+from mqa.vocabulary.eu_vocab_non_proprietary import NON_PROPRIETARY_VOCABULARY
+from mqa.vocabulary.eu_vocab_machine_readable import MACHINE_READABLE_VOCABULARY
+from mqa.vocabulary.eu_vocab_file_type import FILE_TYPE_VOCABULARY
+from mqa.vocabulary.iana_media_types import MEDIA_TYPE_VOCABULARY
 
 
 FORMAT = "http://purl.org/dc/terms/format"

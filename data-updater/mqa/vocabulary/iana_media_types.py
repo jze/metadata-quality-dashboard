@@ -1,7 +1,7 @@
 # Source: https://www.iana.org/assignments/media-types/media-types.xhtml
 
 from xml.etree import ElementTree as ET
-from package.config import MEDIATYPE
+from mqa.config import MEDIATYPE
 
 
 IANA_MEDIA_TYPE = "http://www.iana.org/assignments/media-types"

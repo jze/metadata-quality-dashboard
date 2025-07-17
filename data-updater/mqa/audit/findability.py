@@ -1,4 +1,4 @@
-from package.audit.utils import is_defined
+from mqa.audit.utils import is_defined
 
 
 # dcat:Dataset properties.

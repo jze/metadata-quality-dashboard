@@ -8,17 +8,16 @@ import urllib3
 from datetime import datetime
 from pathlib import Path
 
-from package.api import opendata_catalog_jsonld as cat
-from package.api import opendata_ckan as ckan
-from package.audit import (
+from mqa.api import opendata_catalog_jsonld as cat
+from mqa.api import opendata_ckan as ckan
+from mqa.audit import (
     audit_datasets,
     score_total,
     score_organisations,
     score_datasets,
 )
-
-import package.config as c
-from package.utils import save_json, load_json
+import mqa.config as c
+from mqa.utils import save_json, load_json
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 logging.basicConfig(format="%(asctime)s %(levelname)s: %(message)s", level=logging.INFO, datefmt="%H:%M:%S")  # fmt: skip

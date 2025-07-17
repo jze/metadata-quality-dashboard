@@ -7,8 +7,8 @@ from collections import Counter
 from functools import cache
 from urllib.parse import urlparse
 
-from package.api.opendata_catalog_jsonld.query import VERIFY, PROXY, TIMEOUT, HEADERS
-from package.audit.utils import get_distributions
+from mqa.api.opendata_catalog_jsonld.query import VERIFY, PROXY, TIMEOUT, HEADERS
+from mqa.audit.utils import get_distributions
 
 logger = logging.getLogger(__name__)
 
