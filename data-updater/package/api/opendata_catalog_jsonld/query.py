@@ -1,4 +1,3 @@
-import json
 import logging
 import os
 import queue
@@ -9,7 +8,7 @@ import warnings
 
 from typing import List
 
-from package.paths import DATA
+from package.config import ENV_AUDIT_HTTP_PROXY, ENV_AUDIT_HTTPS_PROXY
 
 logger = logging.getLogger(__name__)
 
@@ -18,23 +17,17 @@ logger = logging.getLogger(__name__)
 VERIFY = False
 TIMEOUT = 1
 TIMEOUT_LONG = 60
-HEADERS = {"User-Agent": "OGDLinkVerifier/1.0 (+https://dashboard.opendata.swiss/)"}
-if "AUDIT_PROXY" in os.environ:
-    PROXY = {
-        "http": os.environ.get("AUDIT_PROXY"),
-        "https": os.environ.get("AUDIT_PROXY"),
-    }
-else:
-    PROXY = None
+HEADERS = {"User-Agent": "OGDLinkVerifier/1.0 (+https://dashboard.opendata.swiss/)"}   
+PROXY = {
+    "http": os.environ.get(ENV_AUDIT_HTTP_PROXY, None),
+    "https": os.environ.get(ENV_AUDIT_HTTPS_PROXY, None),
+}
 
 # API get.
 CATALOG_QUERY = "https://ckan.opendata.swiss/catalog.jsonld"
 RETRY_WAIT = 5
 RETRY_RANDOM_WAIT = 3
 OVERREAD = 2
-
-# Save file location.
-PRODUCTION_CATALOG_PATH = DATA / "all_catalog.json"
 
 # STRUCTURE: catalog.jsonld
 ID = "@id"
@@ -127,13 +120,3 @@ def requests_to_json(pages: List[requests.Request]) -> List:
     """Extract the data from request objects and format to json."""
     json_list = [page.json() for page in pages]
     return [entry for entries in json_list for entry in entries]
-
-
-def save_pages(data, path):
-    with open(path, "w") as f:
-        json.dump(list(data), f, indent=4)
-
-
-def load_pages(path):
-    with open(path, "r") as f:
-        return json.load(f)

@@ -1,4 +1,4 @@
-from package.audit.utils import get_distributions, is_defined, count_defined
+import package.audit.utils as au
 
 
 # dcat:CatalogRecord properties.
@@ -13,10 +13,10 @@ FILE_SIZE = 'http://www.w3.org/ns/dcat#byteSize'
 
 
 def audit_contextuality(dataset):
-    distributions = get_distributions(dataset)
+    distributions = au.get_distributions(dataset)
     return {
-        "rights": count_defined(distributions, RIGHTS),
-        "file_size": count_defined(distributions, FILE_SIZE),
-        "issue_date": is_defined(dataset, ISSUE_DATE),
-        "modification_date": is_defined(dataset, MODIFY_DATE)
+        "rights": au.count_defined(distributions, RIGHTS),
+        "file_size": au.count_defined(distributions, FILE_SIZE),
+        "issue_date": au.is_defined(dataset, ISSUE_DATE),
+        "modification_date": au.is_defined(dataset, MODIFY_DATE)
     }
