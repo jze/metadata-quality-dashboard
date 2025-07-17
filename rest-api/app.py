@@ -1,16 +1,18 @@
 import json
 import os
 
+from datetime import timedelta, datetime, date
 from flask import Flask, render_template
 from flask_restful import Resource, Api
 from pathlib import Path
 
 
-CONSTANT_PATH = Path("./data/constant/")
+ROOT_DIR = Path(__file__).resolve().parent
+CONSTANT_PATH = ROOT_DIR / "data" / "constant"
 OPENDATA_DETAILS = CONSTANT_PATH / "opendata-swiss-details.json"
 
 INPUT = Path(
-    "./data/output/"
+    ROOT_DIR / "data" / "output"
     if os.getenv("AUDIT_DEV") == "1"
     else Path(os.getenv("SHARED", "/shared/"))
 )
@@ -181,7 +183,15 @@ def format_yesno(value_yes):
 
 def status():
     """ Return the most recent audit update time. """
-    return deserialize(STATUS)
+    data = deserialize(STATUS)
+    last_update = data.get("last_update")
+
+    if last_update:
+        update_date = datetime.strptime(last_update, "%d.%m.%Y").date()
+        if update_date + timedelta(days=3) < date.today():
+            status["status"] = "OUTDATED"
+
+    return data
 
 
 if __name__ == "__main__":
