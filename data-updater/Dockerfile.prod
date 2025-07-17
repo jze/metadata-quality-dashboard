@@ -1,0 +1,34 @@
+FROM python:3.9-alpine
+
+# !!! PLESK does not work with environment variables (BUG). !!!
+
+# Access to /shared/ volume.
+# ENV OPENDATA_AUDIT_OUTPUT=/shared/audit.json
+
+# Copy Filesystem.
+WORKDIR /app/data-updater
+COPY . .
+
+# Install requirements.
+COPY requirements.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Setup Scheduler.
+# RUN apk update \
+#     && apk add crontab
+
+COPY crontab.txt crontab.txt
+RUN crontab crontab.txt
+
+# Run Scheduler.
+# Running logs in volumne: audit-shared, path: /shared/data-updater-logs.txt
+
+# data-updater-logs.txt needs to be created with touch.
+# tail -f data-updater-logs.txt does not work as intended and fails to output logs.
+# It also anchors the container on tail, which is hard to kill (ctrl + c fails), and
+# require an external command to "docker container kill [container_id]".
+# CMD ["cron", "&&", "tail", "-f", "/shared/data-updater-logs.txt"]
+
+# cron -f run cron in foreground, to keep the container alive, anchored on cron.
+CMD ["crond", "-f"]
+

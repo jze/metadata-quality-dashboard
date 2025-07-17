@@ -1,0 +1,5 @@
+.git
+.gitignore
+Dockerfile.debug
+Dockerfile.run-now
+Dockerfile.prod

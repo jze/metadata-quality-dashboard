@@ -1,0 +1,15 @@
+{
+    "display_name" : {
+        "fr": "Opendata.swiss",
+        "de": "Opendata.swiss",
+        "en": "Opendata.swiss",
+        "it": "Opendata.swiss"
+    },
+    "description": {
+        "fr": "opendata.swiss est le portail central répertoriant les données en libre accès («Open Government Data» ou «OGD») de l’administration publique suisse.",
+        "de": "opendata.swiss ist das zentrale Portal für offene, d.h. frei zugängliche Daten der Schweizer Behörden (Open Government Data, OGD).",
+        "en": "opendata.swiss is the Swiss public administration’s central portal for open government data.",
+        "it": "opendata.swiss è il portale centrale in cui sono archiviati i dati liberamente accessibili («open government data» o «OGD») dell’amministrazione pubblica svizzera."
+    }, 
+    "image_display_url": "https://opendata.swiss/images/logo_horizontal.png" 
+}

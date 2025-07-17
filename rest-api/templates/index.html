@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opendata Audit WebAPI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .table {
+            margin: 20px 0;
+            border-collapse: collapse;
+            width: 100%;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .table th,
+        .table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .code-sample {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-family: Consolas, 'Courier New', monospace;
+            border-radius: 4px;
+            white-space: nowrap;
+            overflow-x: hidden;
+            max-width: 45vw;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Metadata Quality Audit WebAPI</h1>
+    <p>Welcome to the Metadata Quality Audit project. Every morning, metadatasets from <a target="_blank"
+            rel="noopener noreferrer" href="https://opendata.swiss/en">opendata.swiss</a> are audited, allowing <a
+            target="_blank" rel="noopener noreferrer" href="https://www.bfs.admin.ch/bfs/en/home.html">FSO</a> experts
+        and data producers to monitor and correct any missing or faulty metadata. Audit scores respect the <a
+            target="_blank" rel="noopener noreferrer" href="https://data.europa.eu/mqa/methodology?locale=en">Metadata
+            Quality Assessment Methodology</a> developed by the data.europa.eu consortium.</p>
+
+    <h1>API</h1>
+    <figure class="table">
+        <table>
+            <tbody>
+                <tr>
+                    <th>API call</th>
+                    <th>Description</th>
+                    <th>Output Sample</th>
+                </tr>
+                <tr>
+                    <td>/organisation-list</td>
+                    <td>Return all available organisation identifiers.</td>
+                    <td class="code-sample">
+                        <pre>
+[
+    "oevch",
+    "agis_service_center",
+    "stadt-luzern",
+    "kanton-thurgau",
+    "lausanne",
+    …
+]                       </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/detailed-organisation-list</td>
+                    <td>A list of organisation with additional information for display purposes.</td>
+                    <td class="code-sample">
+                        <pre>
+[
+    {
+        "display_name": {
+            "fr": "Office fédéral de la statistique OFS",
+            "de": "Bundesamt für Statistik BFS",
+            "en": "Federal Statistical Office FSO",
+            "it": "Ufficio federale di statistica UST"
+        },
+        "description": {
+            "fr": "L'OFS est le centre de compétence de la statistique publique suisse. Il produit des informations statistiques sur la population, l'économie, la société, la formation et la recherche, le territoire et l'environnement. Ces informations servent à la formation de l’opinion publique. Elles sont un outil de planification et de gouvernance dans tous les domaines de l’action politique et contribuent au bon fonctionnement de notre État moderne et démocratique.",
+            "de": "Das BFS ist das nationale Kompetenzzentrum der öffentlichen Statistik der Schweiz. Es produziert und publiziert statistische Informationen über den Stand und die Entwicklung von Bevölkerung, Wirtschaft, Gesellschaft, Bildung, Forschung, Raum und Umwelt. Diese Informationen dienen der Meinungsbildung in der Bevölkerung sowie der Planung und Steuerung von zentralen Politikbereichen. Sie leisten einen wichtigen Beitrag für einen modernen, demokratischen Staat.",
+            "en": "The FSO is Switzerland's national competence centre for official statistics. It produces and publishes statistical information on the status and development of the population, economy, society, education, research, territory and the environment. This information is used for opinion building among the population and for the planning and management of key policy areas. They make an important contribution to a modern, democratic state.",
+            "it": "L’UST è il centro di competenza nazionale per la statistica pubblica della Svizzera. Produce e pubblica informazioni statistiche sullo stato e sull'evoluzione della popolazione, dell'economia, della società, della formazione, della ricerca, del territorio e dell'ambiente. Queste informazioni servono alla formazione dell'opinione pubblica nonché alla pianificazione e alla gestione in ambiti politici di centrale importanza. Forniscono un importante contributo per uno Stato moderno e democratico."
+        },
+        "image_display_url": "https://ckan.opendata.swiss/uploads/group/BFS_08_web.jpg",
+        "package_count": 2938,
+        "name": "bundesamt-fur-statistik-bfs"
+    },
+    …
+]                       </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/organisation/&lt;identifier&gt;</td>
+                    <td>Return an organisation's full audit with additional information for display purposes.</td>
+                    <td class="code-sample">
+                        <pre>
+{
+    "display_name": { "fr": "...", "en": "...", "de": "...", "it": "..." },
+    "description": { "fr": "...", "en": "...", "de": "...", "it": "..." },
+    "image_display_url": "https://ckan.opendata.swiss/uploads/group/2021-06-15-141435.0184872021-05-28-081216.196765EnviDat.png",
+    "total_score": 240,
+    "findability": { "keywords": 0.55, ..., },
+    "accessibility": { "download_url": 0.99, ..., },
+    "reusability": { "license": 0.751, ..., },
+    "contextuality": { "rights": 1, ..., },
+    "interoperability": { "format": 0.934, ..., }
+}                      </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/organisation/&lt;identifier&gt;/overview</td>
+                    <td>Return an organisation's score for each of its five categories.</td>
+                    <td class="code-sample">
+                        <pre>
+{
+    "dataStatus": "18.11.2024",
+    "organisation": "envidat",
+    "data": [
+        {
+            "key": "overview",
+            "value": [
+                { "key": "findability", "values": 60},
+                { "key": "accessibility", "values": 50 },
+                { "key": "reusability", "values": 60 },
+                { "key": "contextuality", "values": 20 },
+                { "key": "interoperability", "values": 50 }]
+        }
+    ]
+}                   </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/organisation/&lt;identifier&gt;/findability</td>
+                    <td>Return an organisation's findability audit and score.</td>
+                    <td class="code-sample">
+                        <pre>
+{
+    "dataStatus": "23.10.2024",
+    "organisation": "oevch",
+    "data": {
+        "keywords": [
+            {"category": "Yes", "value": 100}, 
+            {"category": "No", "value": 0}],
+        "categories": [
+            {"category": "Yes", "value": 0}, 
+            {"category": "No", "value": 100}],
+        "geo_search": [
+            {"category": "Yes", "value": 99.1}, 
+            {"category": "No", "value": 0.9}],
+        "time_search": [
+            {"category": "Yes", "value": 42.5}, 
+            {"category": "No", "value": 57.5}],
+        "score": 58
+    }
+}                       </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/organisation/&lt;identifier&gt;/accessibility</td>
+                    <td>Return an organisation's accessibility audit and score.</td>
+                    <td class="code-sample">
+                        <pre>
+{
+    "dataStatus": "18.11.2024",
+    "organisation": "envidat",
+    "data": {
+        "access_url_status_frequency": [
+            { "code": "200", "value": 55.1 },
+            { "code": "302", "value": 44.9 }],
+        "download_url": [
+            { "category": "Yes", "value": 0 },
+            { "category": "No", "value": 100 }],
+        "download_url_status_frequency": [],
+        "score": 50
+    }
+}                       </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/organisation/&lt;identifier&gt;/reusability</td>
+                    <td>Return an organisation's reusability audit and score.</td>
+                    <td class="code-sample">
+                        <pre>
+{
+    "dataStatus": "23.10.2024",
+    "organisation": "oevch",
+    "data": {
+        "license": [
+            {"category": "Yes", "value": 100}, 
+            {"category": "No", "value": 0}],
+        "license_vocabulary": [
+            {"category": "Yes", "value": 100}, 
+            {"category": "No", "value": 0}],
+        "access_restriction": [
+            {"category": "Yes", "value": 0}, 
+            {"category": "No", "value": 100}],
+        "access_restriction_vocabulary": [
+            {"category": "Yes", "value": 0}, 
+            {"category": "No", "value": 100}],
+        "contact_point": [
+            {"category": "Yes", "value": 100}, 
+            {"category": "No", "value": 0}],
+        "publisher": [
+            {"category": "Yes", "value": 100}, 
+            {"category": "No", "value": 0}],
+        "score": 60
+    }
+}                       </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/organisation/&lt;identifier&gt;/contextuality</td>
+                    <td>Return an organisation's contextuality audit and score.</td>
+                    <td class="code-sample"><pre>
+{
+    "dataStatus": "23.10.2024",
+    "organisation": "oevch",
+    "data": {
+        "rights": [
+            {"category": "Yes", "value": 100}, 
+            {"category": "No", "value": 0}],
+        "file_size": [
+            {"category": "Yes", "value": 93.4}, 
+            {"category": "No", "value": 6.6}],
+        "issue_date": [
+            {"category": "Yes", "value": 100}, 
+            {"category": "No", "value": 0}],
+        "modification_date": [
+            {"category": "Yes", "value": 100}, 
+            {"category": "No", "value": 0}],
+        "score": 19
+    }
+}                       </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/organisation/&lt;identifier&gt;/interoperability</td>
+                    <td>Return an organisation's interoperability audit and score.</td>
+                    <td class="code-sample"><pre>
+{
+    "dataStatus": "23.10.2024",
+    "organisation": "oevch",
+    "data": {
+        "format": [
+            {"category": "Yes", "value": 93.4}, 
+            {"category": "No", "value": 6.6}],
+        "media_type": [
+            {"category": "Yes", "value": 89.6}, 
+            {"category": "No", "value": 10.4}],
+        "controlled_vocabulary": [
+            {"category": "Yes", "value": 89.6}, 
+            {"category": "No", "value": 10.4}],
+        "non_proprietary": [
+            {"category": "Yes", "value": 73.6}, 
+            {"category": "No", "value": 26.4}],
+        "machine_readable": [
+            {"category": "Yes", "value": 20.8}, 
+            {"category": "No", "value": 79.2}],
+        "dcat_ap_compliance": [
+            {"category": "Yes", "value": 0}, 
+            {"category": "No", "value": 100}],
+        "score": 55
+    }
+}                       </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/status</td>
+                    <td>Return the status of the latest data audit.</td>
+                    <td class="code-sample"><pre>
+{
+    "status": "OK",
+    "message": "",
+    "last_update": "13.03.2025",
+    "last_update_ok": "13.03.2025",
+    "version": 0.7,
+    "version_last_update": "13.03.2025"
+}                     </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>/version</td>
+                    <td>Return the current data-updater version.</td>
+                    <td class="code-sample"><pre>
+{
+    "version": 0.7,
+    "version_last_update": "13.03.2025"
+}                     </pre>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </figure>
+</body>
+
+</html>

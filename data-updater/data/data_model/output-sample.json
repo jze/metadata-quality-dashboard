@@ -1,0 +1,67 @@
+[
+    {
+        "identifyer" : "sample-organization-identifyer",
+        "name": 
+        {
+            "fr": "Exemple de nom d'organisation", 
+            "de": "Beispielname einer Organisation", 
+            "en": "Sample organization name", 
+            "it": "Nome dell'organizzazione di esempio"
+        },
+        "total_score": 400,
+        "findability": 
+        {
+            "score": 100,
+            "keyword": 1.0,
+            "categories": 1.0,
+            "geo_search": 1.0,
+            "time_search": 1.0
+        },
+        "accessibility": 
+        {
+            "score": 95,
+            "url_accessible": 1.0,
+            "download_url": 1.0,
+            "download_url_accessible": 1.0,
+            "url_status": 
+            {
+                "200": 0.80, 
+                "300": 0.10,
+                "404": 0.10
+            },
+            "download_url_status": 
+            {
+                "200": 0.90, 
+                "300": 0.10
+            }
+        },
+        "interoperability": 
+        {
+            "score": 110,
+            "format": 1.0,
+            "media_type": 1.0,
+            "format&media_vocabulary": 1.0,
+            "format_proprietary": 1.0,
+            "format_machine_readable": 1.0,
+            "dcat_compliant": 1.0
+        },
+        "reusability": 
+        {
+            "score": 75,
+            "license": 1.0,
+            "license_vocabulary": 1.0,
+            "access_restriction": 1.0,
+            "access_restriction_vocabulary": 1.0,
+            "contact_point": 1.0,
+            "publisher": 1.0
+        },
+        "contextuality":
+        {
+            "score": 20,
+            "rights": 1.0,
+            "file_size": 1.0,
+            "issue_date": 1.0,
+            "modification_date": 1.0
+        }
+    }
+]
