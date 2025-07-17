@@ -127,7 +127,7 @@ def ensure_output_files_exist():
         OUTPUT_LIST,
         OUTPUT_STATUS
     ]:
-        path.touch(exist_ok=True)
+        path.touch()
         logger.debug(f"Ensured file exists: {path}")
 
 
