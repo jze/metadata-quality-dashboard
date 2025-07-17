@@ -1,7 +1,7 @@
 # Source: https://www.iana.org/assignments/media-types/media-types.xhtml
 
 from xml.etree import ElementTree as ET
-from package.paths import CONTROLLED_VOC
+from data_updater.config import MEDIATYPE
 
 
 IANA_MEDIA_TYPE = "http://www.iana.org/assignments/media-types"
@@ -9,11 +9,9 @@ REGISTRY = r"{http://www.iana.org/assignments}registry"
 RECORD = r"{http://www.iana.org/assignments}record"
 FILE = r"{http://www.iana.org/assignments}file"
 
-FILEPATH = CONTROLLED_VOC / "Media Types.xml"
-
-tree = ET.parse(FILEPATH)
+tree = ET.parse(MEDIATYPE)
 root = tree.getroot()
-# A templateis composed of a context and a data type.
+# A template is composed of a context and a data type.
 # Example of a template: [context]/[type] -> application/csv.
 templates = {
     file.text

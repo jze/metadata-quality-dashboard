@@ -22,6 +22,9 @@ docker container run \
 ```
 
 ## Build and Run the `rest-api` Container
+
+The REST API is developed using Flask and Flask-RESTful. For production deployment, we use **Gunicorn** as the WSGI HTTP server to run the Flask app, with **Nginx** as a reverse proxy server.
+
 ```
 docker image build -t audit.rest-api .
 

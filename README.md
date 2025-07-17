@@ -21,11 +21,17 @@ The system was developed to address inconsistencies in open data metadata and en
 ## Further Documentation
 * [Project Structure](./documentation/project-structure.md)
 * [Deployment](./documentation/deployment.md)
+* [Run Locally](./documentation/run-locally.md)
+* [Environment Variables](./documentation/environment-variables.md)
+* [API Documentation](./documentation/rest-api.md)
 * [Inter-Process Communication](./documentation/inter-process-communication.md)
 
+
 ## Technologies
-* Python 3.9.7 – For packages, read the per-project requirements.txt files
-* Docker – Used to containerize and isolate each sub-project
+* Python 3.9.7 – For dependencies, read the per-project requirements.txt files.
+    * [data-loader/requirement.txt](./data-updater/requirements.txt)
+    * [rest-api/requirement.txt](./data-updater/requirements.txt)
+* Docker – Containerization to isolate and deploy each sub-project consistently.
 * Git + Bitbucket – Source control and hosting
 
 > The code is published on GitHub for public access.

@@ -1,29 +1,36 @@
 import json
 import os
 
+from datetime import timedelta, datetime, date
 from flask import Flask, render_template
 from flask_restful import Resource, Api
 from pathlib import Path
 
 
-CONSTANT_PATH = Path("./data/constant/")
+ROOT_DIR = Path(__file__).resolve().parent
+CONSTANT_PATH = ROOT_DIR / "data" / "constant"
 OPENDATA_DETAILS = CONSTANT_PATH / "opendata-swiss-details.json"
 
-INPUT_PATH = Path("./data/output/" if "AUDIT_DEV" in os.environ else "/shared/")  # fmt: skip
-INPUT_ORG_AUDIT = INPUT_PATH / "audit_organisation.json"
-INPUT_TOTAL_AUDIT = INPUT_PATH / "audit_total.json"
-DETAILED_LIST = INPUT_PATH / "detailed_organisation_list.json"
-STATUS = INPUT_PATH / "status.json"
+INPUT = Path(
+    ROOT_DIR / "data" / "output"
+    if os.getenv("AUDIT_DEV") == "1"
+    else Path(os.getenv("SHARED", "/shared/"))
+)
+INPUT_ORG_AUDIT = INPUT / "audit_organisation.json"
+INPUT_TOTAL_AUDIT = INPUT / "audit_total.json"
+DETAILED_LIST = INPUT / "detailed_organisation_list.json"
+STATUS = INPUT / "status.json"
 
 # HTTP Connection.
 VERIFY = False
 PROXY = {
-    "http": os.environ.get("AUDIT_PROXY", None),
-    "https": os.environ.get("AUDIT_PROXY", None),
+    "http": os.getenv("AUDIT_HTTP_PROXY", None),
+    "https": os.getenv("AUDIT_HTTPS_PROXY", None),
 }
-print(f"INPUT_ORG_AUDIT = {INPUT_ORG_AUDIT}")
-print(f"INPUT_TOTAL_AUDIT = {INPUT_TOTAL_AUDIT}")
-print(f"PROXY = {PROXY}")
+print(f"[env] AUDIT_DEV: {os.getenv('AUDIT_DEV', 'None')}")
+print(f"[env] SHARED: {os.getenv('SHARED', 'None')}")
+print(f"[env] AUDIT_HTTP_PROXY: {os.getenv('AUDIT_HTTP_PROXY', 'None')}")
+print(f"[env] AUDIT_HTTPS_PROXY: {os.getenv('AUDIT_HTTPS_PROXY', 'None')}")
 
 app = Flask(__name__)
 api = Api(app)
@@ -176,7 +183,15 @@ def format_yesno(value_yes):
 
 def status():
     """ Return the most recent audit update time. """
-    return deserialize(STATUS)
+    data = deserialize(STATUS)
+    last_update = data.get("last_update")
+
+    if last_update:
+        update_date = datetime.strptime(last_update, "%d.%m.%Y").date()
+        if update_date + timedelta(days=3) < date.today():
+            status["status"] = "OUTDATED"
+
+    return data
 
 
 if __name__ == "__main__":
