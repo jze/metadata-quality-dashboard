@@ -21,9 +21,10 @@ PROXY = {
     "http": os.getenv("AUDIT_HTTP_PROXY", None),
     "https": os.getenv("AUDIT_HTTPS_PROXY", None),
 }
-print(f"INPUT_ORG_AUDIT = {INPUT_ORG_AUDIT}")
-print(f"INPUT_TOTAL_AUDIT = {INPUT_TOTAL_AUDIT}")
-print(f"PROXY = {PROXY}")
+print(f"[env] INPUT_ORG_AUDIT: {INPUT_ORG_AUDIT}")
+print(f"[env] INPUT_TOTAL_AUDIT: {INPUT_TOTAL_AUDIT}")
+print(f"[env] AUDIT_HTTP_PROXY: {PROXY['http']}")
+print(f"[env] AUDIT_HTTPS_PROXY: {PROXY['https']}")
 
 app = Flask(__name__)
 api = Api(app)
