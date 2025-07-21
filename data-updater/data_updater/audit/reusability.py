@@ -1,6 +1,6 @@
 import data_updater.audit.utils as au
 import data_updater.config as c
-import data_updater.vocabulary.dcat_ap_ch as dcat
+import data_updater.vocabulary.dcat_ap_de as dcat
 import data_updater.vocabulary.eu_vocab_access_rights as access_rights
 from data_updater.utils import load_json
 
