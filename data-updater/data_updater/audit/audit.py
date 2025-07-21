@@ -11,6 +11,7 @@ from data_updater.audit.scoring import add_score
 
 VALUE = "@value"
 IDENTIFIER = "http://purl.org/dc/terms/identifier"
+PUBLISHER = "http://purl.org/dc/terms/publisher"
 
 
 async def audit_datasets(catalog: list[dict], debug: bool=False) -> dict[str, Any]:
@@ -87,11 +88,12 @@ def group_by_org(audits: list[dict]) -> dict[str, list[dict]]:
 
 def get_identifyer(dataset: dict) -> str:
     """Return a dataset's identifyer."""
-    return dataset[IDENTIFIER][0][VALUE]
+    return dataset.get('@id')
 
 
 def get_organisation_name(dataset: dict) -> str:
-    return get_identifyer(dataset).split("@")[1]
+    uri = dataset[PUBLISHER][0].get('@id')
+    return uri
 
 
 def aggregate(audits: list[dict]) -> dict[str, Union[int, dict]]:

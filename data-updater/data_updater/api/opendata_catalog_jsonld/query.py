@@ -24,7 +24,7 @@ PROXY = {
 }
 
 # API get.
-CATALOG_QUERY = "https://ckan.opendata.swiss/catalog.jsonld"
+CATALOG_QUERY = "https://opendata.schleswig-holstein.de/catalog.jsonld"
 RETRY_WAIT = 5
 RETRY_RANDOM_WAIT = 3
 OVERREAD = 2

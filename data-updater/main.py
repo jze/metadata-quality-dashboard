@@ -29,7 +29,7 @@ async def main() -> None:
         log_env_vars()
         ensure_output_files_exist()
 
-        logger.info("Download all pages from opendata.swiss")
+        logger.info("Download all pages from DCAT catalog")
         requests = cat.request_all_pages()
         raw_data = cat.requests_to_json(requests)
         save_json(c.INPUT_FILE, list(raw_data))
@@ -38,7 +38,7 @@ async def main() -> None:
         catalog = cat.format_data(load_json(c.INPUT_FILE))
 
         logger.info("Audit all datasets.")
-        audits = await audit_datasets(catalog)
+        audits = await audit_datasets(catalog, debug=True)
 
         # Ready for Future feature.
         # logger.info("Generate score by dataset.")
@@ -53,7 +53,7 @@ async def main() -> None:
 
         logger.info("Generate total score.")
         total_score = score_total(audits)
-        logger.info(f"Save opendata.swiss audit to {c.OUTPUT_TOTAL_AUDIT}.")
+        logger.info(f"Save DCAT catalog audit to {c.OUTPUT_TOTAL_AUDIT}.")
         save_json(c.OUTPUT_TOTAL_AUDIT, total_score)
 
         logger.info("Generate detailed organisation list.")

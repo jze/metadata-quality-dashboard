@@ -1,6 +1,7 @@
 import requests
 from data_updater.api.opendata_catalog_jsonld import VERIFY, PROXY, HEADERS
 
+CKAN_BASE = "https://opendata.schleswig-holstein.de"
 
 def generate_detailed_org_list(organization_audits):
     org_list = list(organization_audits.keys())
@@ -11,10 +12,25 @@ def generate_detailed_org_list(organization_audits):
 
 
 def get_organisation_details(id):
-    return requests.get(
-        "https://ckan.opendata.swiss/api/3/action/organization_show",
+    if not id:
+        return {"name":"unknown", "display_name": "unknown"}
+
+    if '_:' in id:
+        # The publisher was a blank note. Therefore, it will not be
+        # possible to retrieve the details via API.
+        return {"name":"unknown", "display_name": "unknown"}
+
+    if 'https://' in id or 'http://' in id:
+        # the 'name' of the organisation seems to be a URI
+        # use the text after the last slash as id
+        id = id.split('/')[-1]
+
+    response = requests.get(
+        f"{CKAN_BASE}/api/3/action/organization_show",
         verify=VERIFY,
         proxies=PROXY,
         headers=HEADERS,
         params={"id": id},
-    ).json()["result"]
+    ).json()
+
+    return response.get("result")
